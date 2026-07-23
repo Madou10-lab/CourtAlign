@@ -1,0 +1,17 @@
+{
+  "method_id": "courtalign_2s",
+  "dataset_config": "configs/datasets/tennis_fullcourt.json",
+  "checkpoint": "weights/courtalign_2s/tennis/best_model.pth",
+  "asset_dir": "assets/courtalign_2s/tennis/templates",
+  "output_dir": "runs/courtalign_2s/tennis/registration",
+  "registration": {
+    "width": 1280,
+    "height": 720,
+    "x_scale": 1.5,
+    "y_scale": 1.5,
+    "closing_iterations": 2,
+    "erosion_iterations": 1,
+    "ransac_reproj_threshold": 35,
+    "ransac_max_iters": 2000
+  }
+}

@@ -1,0 +1,43 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.2pt}
+\caption{Quantitative results for court registration on the tennis and badminton datasets. All metrics are reported as the mean over the court-visible test frames, while NC-FP reports the number of false registrations among the non-registrable frames. IoU, PCK-H, and Line-IoU are reported as fractions in $[0,1]$. Upward and downward arrows denote metrics for which higher and lower values are better. Best values within each sport are shown in \textbf{bold}.}
+\label{tab:court_registration_comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccccccccc}
+\toprule
+\multirow{2}{*}{\textbf{Sport}} & \multirow{2}{*}{\textbf{Method}}
+& \multirow{2}{*}{\textbf{IoU} $\uparrow$}
+& \multirow{2}{*}{\textbf{Proj. (m)} $\downarrow$}
+& \multirow{2}{*}{\textbf{Reproj. (px)} $\downarrow$}
+& \multicolumn{2}{c}{\textbf{PCK-H} $\uparrow$}
+& \multicolumn{3}{c}{\textbf{Line-IoU} $\uparrow$}
+& \multirow{2}{*}{\textbf{NC-FP} $\downarrow$} \\
+\cmidrule(lr){6-7} \cmidrule(lr){8-10}
+& & & & & @5 & @10 & @0 & @3 & @5 & \\
+\midrule
+\multirow{6}{*}{Tennis}
+& KpSFR~\cite{chu2022sports} & 0.9647 & 0.1186 & 3.9002 & 0.4509 & 0.8571 & 0.0697 & 0.4161 & 0.5623 & \textbf{0/1} \\
+& No-Bells-Just-Whistles~\cite{Gutierrez-Perez_2024_CVPR} & 0.9899 & 0.0605 & 2.5114 & 0.8470 & 0.9921 & 0.1156 & 0.5771 & 0.6945 & 1/1 \\
+& KaliCalib~\cite{maglo2022kalicalib} & 0.9553 & 0.0814 & 3.5965 & 0.5620 & 0.9921 & 0.0994 & 0.4808 & 0.6195 & 1/1 \\
+& TVCalib~\cite{theiner2023tvcalib} & 0.9811 & 0.1079 & 4.6104 & 0.5209 & 0.9192 & 0.0736 & 0.4706 & 0.6090 & \textbf{0/1} \\
+\rowcolor{blue!5}\cellcolor{white}
+& \textbf{CourtAlign-2S (Ours)}~\cite{jouini2024deep} & \textbf{0.9964} & 0.0501 & 2.4077 & 0.8420 & 0.9913 & 0.1333 & 0.5989 & 0.7100 & \textbf{0/1} \\
+\rowcolor{blue!5}\cellcolor{white}
+& \textbf{CourtAlign-E2E (Ours)} & 0.9960 & \textbf{0.0215} & \textbf{0.8826} & \textbf{0.9733} & \textbf{0.9993} & \textbf{0.1866} & \textbf{0.6509} & \textbf{0.7513} & \textbf{0/1} \\
+\midrule
+\multirow{6}{*}{Badminton}
+& KpSFR~\cite{chu2022sports} & 0.9921 & 0.0280 & \textbf{1.5817} & 0.9875 & 1.0000 & \textbf{0.1318} & \textbf{0.5679} & \textbf{0.6792} & 1/9 \\
+& No-Bells-Just-Whistles~\cite{Gutierrez-Perez_2024_CVPR} & 0.9932 & 0.0528 & 2.8805 & 0.9764 & 1.0000 & 0.1108 & 0.5340 & 0.6523 & \textbf{0/9} \\
+& KaliCalib~\cite{maglo2022kalicalib} & 0.9743 & 0.1430 & 9.4600 & 0.5181 & 0.8431 & 0.0792 & 0.4268 & 0.5445 & 9/9 \\
+& TVCalib~\cite{theiner2023tvcalib} & 0.9867 & 0.1657 & 9.6854 & 0.1569 & 0.5028 & 0.0565 & 0.3161 & 0.4423 & 1/9 \\
+\rowcolor{blue!5}\cellcolor{white}
+& \textbf{CourtAlign-2S (Ours)}~\cite{jouini2024deep} & \textbf{0.9966} & 0.0375 & 1.8840 & \textbf{0.9986} & \textbf{1.0000} & 0.1281 & 0.5624 & 0.6744 & \textbf{0/9} \\
+\rowcolor{blue!5}\cellcolor{white}
+& \textbf{CourtAlign-E2E (Ours)} & 0.9937 & \textbf{0.0274} & 1.7613 & 0.9417 & 0.9986 & 0.1295 & 0.5666 & 0.6783 & \textbf{0/9} \\
+\bottomrule
+\multicolumn{11}{l}{\scriptsize \textit{Note:} Proj. = Projection; Reproj. = Reprojection.} \\
+\end{tabular}%
+}
+\end{table*}

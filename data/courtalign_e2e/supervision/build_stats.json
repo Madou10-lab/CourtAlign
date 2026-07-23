@@ -1,0 +1,24 @@
+{
+  "tennis": {
+    "n": 1164,
+    "by_split": {
+      "train": 904,
+      "val": 160,
+      "test": 100,
+      "unassigned": 0
+    },
+    "mean_visible_fraction": 0.9888,
+    "mean_weight": 0.8068
+  },
+  "badminton": {
+    "n": 564,
+    "by_split": {
+      "train": 436,
+      "val": 95,
+      "test": 33,
+      "unassigned": 0
+    },
+    "mean_visible_fraction": 0.7145,
+    "mean_weight": 0.8184
+  }
+}

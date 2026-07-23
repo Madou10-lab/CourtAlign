@@ -1,0 +1,36 @@
+{
+  "model": "courtalign_e2e",
+  "backbone": "sam3_seg_fpn",
+  "backbone_trainable": true,
+  "backbone_lr": 0.00003,
+  "input_hw": [1008, 1008],
+  "batch_size": 2,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "heat_temp": 0.35,
+  "heat_sigma_px": 9.0,
+  "no_court_area_frac": 0.02,
+  "min_conf_mean": 0.5,
+  "min_spread_frac": 0.05,
+  "augment": true,
+  "aug": {
+    "max_shift_px": 24,
+    "max_persp_px": 14,
+    "max_scale": 0.06,
+    "color_jitter": 0.25,
+    "blur_p": 0.15
+  },
+  "loss_weights": {
+    "seg": 1.0,
+    "heat": 1.0,
+    "coord": 1.0,
+    "reproj": 2.0,
+    "tmpl": 0.5,
+    "pres": 0.5
+  },
+  "experiment_id": "courtalign_e2e_tennis",
+  "sport": "tennis",
+  "n_epochs": 60,
+  "visibility_head": true,
+  "use_negatives": true
+}

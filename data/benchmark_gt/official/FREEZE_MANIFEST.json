@@ -1,0 +1,22 @@
+{
+  "artifact": "OFFICIAL_BENCHMARK_GT",
+  "protocol_id": "racket_court_registration_official_v1",
+  "status": "FROZEN",
+  "hash_manifest": "data/benchmark_gt/official/HASHES.json",
+  "verification": {
+    "distributed_files": 15,
+    "integrity": "SHA-256 hashes are recorded in the public hash manifest"
+  },
+  "test_sets": {
+    "tennis_fullcourt": {
+      "n_images": 100,
+      "n_registrable": 99,
+      "n_non_registrable": 1
+    },
+    "badminton_zones": {
+      "n_images": 33,
+      "n_registrable": 24,
+      "n_non_registrable": 9
+    }
+  }
+}

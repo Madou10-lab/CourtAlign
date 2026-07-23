@@ -1,0 +1,15 @@
+{
+  "tennis_fullcourt": {
+    "width_m": 11.0,
+    "length_m": 24.0,
+    "source_note": "Rounded 24 m by 11 m tennis template used for projection-error evaluation following Nie et al., WACV 2021."
+  },
+  "badminton_doubles": {
+    "width_m": 6.1,
+    "length_m": 13.4,
+    "singles_width_m": 5.18,
+    "doubles_long_service_from_back_m": 0.72,
+    "short_service_from_net_m": 1.98,
+    "source_note": "Badminton doubles and service-court dimensions follow the BWF court specification."
+  }
+}

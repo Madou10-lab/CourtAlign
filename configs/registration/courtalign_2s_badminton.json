@@ -1,0 +1,18 @@
+{
+  "method_id": "courtalign_2s",
+  "dataset_config": "configs/datasets/badminton_zones.json",
+  "experiment_config": "configs/courtalign_2s/badminton.json",
+  "checkpoint": "weights/courtalign_2s/badminton/best_model.pth",
+  "metric_template_config": "configs/evaluation/metric_templates.json",
+  "output_dir": "runs/courtalign_2s/badminton/registration",
+  "registration": {
+    "width": 1280,
+    "height": 720,
+    "ransac_reproj_threshold_px": 8.0,
+    "min_classes": 8,
+    "min_inlier_ratio": 0.75,
+    "min_zone_miou": 0.88,
+    "min_fullcourt_iou": 0.94,
+    "metric_max_samples": 2500
+  }
+}

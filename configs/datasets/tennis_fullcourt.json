@@ -1,0 +1,19 @@
+{
+  "dataset_id": "tennis_fullcourt",
+  "sport": "tennis",
+  "task": "full_court_segmentation",
+  "description": "Tennis full-court binary segmentation used by CourtAlign.",
+  "manifest": "data/splits/tennis_fullcourt.csv",
+  "input_height": 720,
+  "input_width": 1280,
+  "class_names": ["background", "full_court"],
+  "class_values": [0, 1],
+  "color_space": "hsv",
+  "label_source": "Frozen full-court annotations referenced by the public manifest.",
+  "line_label_source": "data/tennis_fullcourt/line_masks/test",
+  "split_policy": {
+    "test": "Frozen 100-frame held-out test set.",
+    "train_validation_pool": "All labeled source frames after removing the held-out test set.",
+    "train_validation_split": "85/15 deterministic split with seed 20260602."
+  }
+}

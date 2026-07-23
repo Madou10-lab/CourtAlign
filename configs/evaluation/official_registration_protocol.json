@@ -1,0 +1,47 @@
+{
+  "protocol_id": "racket_court_registration_official_v1",
+  "status": "frozen",
+  "ground_truth_root": "data/benchmark_gt/official",
+  "court_spec": "data/benchmark_gt/official/court_spec_tables.json",
+  "freeze_manifest": "data/benchmark_gt/official/FREEZE_MANIFEST.json",
+  "metrics": {
+    "template_pixels_per_meter": 100,
+    "visible_projection_samples": 2500,
+    "dense_reprojection_grid": [50, 50],
+    "pck_pixel_thresholds": [5, 10],
+    "pck_diagonal_thresholds": [0.05, 0.1],
+    "line_iou_tolerances_px": [0, 3, 5],
+    "line_raster_thickness_px": 1
+  },
+  "courtalign_2s": {
+    "tennis": {
+      "dataset_id": "tennis_fullcourt",
+      "experiment_config": "configs/courtalign_2s/tennis.json",
+      "registration_config": "configs/registration/courtalign_2s_tennis.json",
+      "checkpoint": "weights/courtalign_2s/tennis/best_model.pth"
+    },
+    "badminton": {
+      "dataset_id": "badminton_zones",
+      "experiment_config": "configs/courtalign_2s/badminton.json",
+      "registration_config": "configs/registration/courtalign_2s_badminton.json",
+      "checkpoint": "weights/courtalign_2s/badminton/best_model.pth"
+    }
+  },
+  "courtalign_e2e": {
+    "tennis": {
+      "dataset_id": "tennis_fullcourt",
+      "experiment_config": "configs/courtalign_e2e/tennis.json",
+      "checkpoint": "weights/courtalign_e2e/tennis/best_model.pt"
+    },
+    "badminton": {
+      "dataset_id": "badminton_zones",
+      "experiment_config": "configs/courtalign_e2e/badminton.json",
+      "checkpoint": "weights/courtalign_e2e/badminton/best_model.pt"
+    }
+  },
+  "runtime": {
+    "batch_size": 1,
+    "warmup_frames": 5,
+    "cuda_synchronize": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "artifact": "OFFICIAL_BENCHMARK_GT",
+  "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
+  "dataset": "badminton_zones",
+  "split": "all",
+  "n_images": 564,
+  "n_valid": 403,
+  "n_skipped": 161,
+  "n_failed": 0,
+  "tiers": {
+    "gold": 385,
+    "silver": 18
+  },
+  "residual_px720_inlier_rmse": {
+    "mean": 1.1401501627180533,
+    "median": 1.103487718494791,
+    "max": 1.5479402670196039
+  }
+}

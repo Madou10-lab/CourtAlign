@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "train": 909,
+    "val": 143,
+    "test": 99
+  },
+  "n_groups": {
+    "train": 234,
+    "val": 24
+  },
+  "seed": 1337
+}

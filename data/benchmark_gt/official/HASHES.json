@@ -1,0 +1,22 @@
+{
+  "artifact": "OFFICIAL_BENCHMARK_GT",
+  "protocol_id": "racket_court_registration_official_v1",
+  "status": "FROZEN",
+  "files": {
+    "badminton_zones/all/homographies.json": "02bf1c3fffa2baeaf45e5ac0dcf630e655441b5303305b806a0394da268d2649",
+    "badminton_zones/all/per_image.csv": "ffe8e849d248f89e9b0d43bb78382dd71182840f4f887d8d7cbe1c71d2b1d3f4",
+    "badminton_zones/all/summary.json": "d9e0b461f1a9919e6117fc1cc9835b28ab0bb9db779bcfb4765722b9be796ea6",
+    "badminton_zones/residuals_per_correspondence.csv": "aeaedf056a7416ed4554d433e70f80f86bc7318d7e8f73dc4c68be961312f659",
+    "badminton_zones/test/homographies.json": "debd543d26880a1f306d8ba7f5601483853f3a1bac68e02f3b50f64a98dc28bf",
+    "badminton_zones/test/per_image.csv": "e50675431b1454763ed0f1c31d3b8e3b98ede0e4de30a2c72f5f2c653261f8d8",
+    "badminton_zones/test/summary.json": "dfbe2fa4047f77d44d1dae6b4dd13c2cab530f7679344b86df4c3def8d011671",
+    "court_spec_tables.json": "62020181a1c096e134bad7d030fb7fec7c3b0683314e34bf356f14eb4c2c8229",
+    "tennis_fullcourt/all/homographies.json": "d188ca0f3089b08395f159813d9416abef8b428378cdadebd2a73340ee06c53e",
+    "tennis_fullcourt/all/per_image.csv": "bccb0d92c05986e6fab582aa18d2aac35db3b5c0216514d8964290711e18bd35",
+    "tennis_fullcourt/all/summary.json": "28b613756f7d4a713b2fe7baf14ab93aff07c1f7fe71a449a0b47993a6b7f7ad",
+    "tennis_fullcourt/residuals_per_correspondence.csv": "49286c8868b6bddcc840fcef717652c20d7e7379bd8c170978fc5c2108695cac",
+    "tennis_fullcourt/test/homographies.json": "e2467e9595b424f30400e9a48d21eaf23ebbaef8bf851f2e6eb81f7bf7031c4c",
+    "tennis_fullcourt/test/per_image.csv": "d571151015a6659c02f0c3bf6d2d84ee34b1f72ffeabf0a806e9afed8a17e1f0",
+    "tennis_fullcourt/test/summary.json": "8d514dc9f19ad2d5afa586e7d5ea59f66702550e403b72feaa54537b059deb59"
+  }
+}

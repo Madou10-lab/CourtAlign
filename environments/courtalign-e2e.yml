@@ -1,0 +1,20 @@
+name: courtalign-e2e
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch==2.7.1+cu126
+      - torchvision==0.22.1+cu126
+      - transformers==5.12.0
+      - huggingface_hub==1.19.0
+      - numpy==2.1.3
+      - scipy==1.14.1
+      - pandas==2.2.3
+      - opencv-python==4.10.0.84
+      - matplotlib==3.9.4
+      - pillow==12.2.0
+      - tqdm==4.68.2
+      - pytest==9.0.3

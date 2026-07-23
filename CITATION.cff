@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use CourtAlign-2S, please cite the AIAI 2024 paper."
+title: "CourtAlign"
+type: software
+version: 1.0.0
+repository-code: "https://github.com/Madou10-lab/CourtAlign"
+authors:
+  - family-names: Jouini
+    given-names: Ahmed
+  - family-names: Elloumi
+    given-names: Melek
+  - family-names: Chaieb
+    given-names: Faten
+preferred-citation:
+  type: conference-paper
+  title: "A deep learning-based framework for racket sports court registration"
+  authors:
+    - family-names: Jouini
+      given-names: Ahmed
+    - family-names: Elloumi
+      given-names: Melek
+    - family-names: Chaieb
+      given-names: Faten
+  collection-title: "IFIP International Conference on Artificial Intelligence Applications and Innovations"
+  year: 2024
+  start: 17
+  end: 29
+  doi: "10.1007/978-3-031-63219-8_2"

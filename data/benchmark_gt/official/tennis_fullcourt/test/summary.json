@@ -1,0 +1,19 @@
+{
+  "artifact": "OFFICIAL_BENCHMARK_GT",
+  "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
+  "dataset": "tennis_fullcourt",
+  "split": "test",
+  "n_images": 100,
+  "n_valid": 99,
+  "n_skipped": 1,
+  "n_failed": 0,
+  "tiers": {
+    "gold": 99,
+    "silver": 0
+  },
+  "residual_px720_inlier_rmse": {
+    "mean": 0.6348766114077705,
+    "median": 0.6432439863702768,
+    "max": 0.8584909388135511
+  }
+}

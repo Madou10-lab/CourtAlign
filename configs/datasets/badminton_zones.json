@@ -1,0 +1,36 @@
+{
+  "dataset_id": "badminton_zones",
+  "sport": "badminton",
+  "task": "court_zone_segmentation",
+  "description": "Badminton 13-zone segmentation used by CourtAlign.",
+  "manifest": "data/splits/badminton_zones.csv",
+  "input_height": 720,
+  "input_width": 1280,
+  "class_names": [
+    "background",
+    "fl_doubles",
+    "fl_service",
+    "fs_singles",
+    "fr_singles",
+    "fr_service",
+    "fr_doubles",
+    "central_zone",
+    "bl_doubles",
+    "bl_service",
+    "bl_singles",
+    "br_service",
+    "br_singles",
+    "br_doubles"
+  ],
+  "class_values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+  "color_space": "hsv",
+  "label_source": "Frozen 13-zone annotations referenced by the public manifest.",
+  "line_label_source": "data/badminton_zones/line_masks/all",
+  "split_policy": {
+    "source": "Frozen train, validation, and held-out test assignment.",
+    "train": 436,
+    "validation": 95,
+    "test": 33,
+    "note": "The public protocol uses the 95-frame validation split stored in the frozen manifest."
+  }
+}

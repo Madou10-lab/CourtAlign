@@ -1,0 +1,1904 @@
+{
+ "records": [
+  {
+   "image_id": "190.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335848,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "192.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "193.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "197.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "199.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "202.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "204.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "206.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "207.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     116.18461094056889,
+     -28.887861745788637,
+     599.7904238833111
+    ],
+    [
+     0.2817470687467913,
+     6.272193585606482,
+     511.7821905342059
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     77.45640729371259,
+     -19.258574497192424,
+     399.86028258887404
+    ],
+    [
+     0.18783137916452752,
+     4.181462390404321,
+     341.1881270228039
+    ],
+    [
+     0.00018112577580654655,
+     -0.030377381442880935,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1918264329335813,
+    "fullcourt_iou": 0.9684319928155918,
+    "zone_miou": 0.9357484119885829,
+    "per_class_iou": {
+     "1": 0.9557877813504824,
+     "2": 0.9777972219184076,
+     "3": 0.9277574490329326,
+     "4": 0.9137735654682189,
+     "5": 0.9783361037687004,
+     "6": 0.9772950016334532,
+     "7": 0.9870640339546042,
+     "8": 0.8874274661508704,
+     "9": 0.9805944653228562,
+     "10": 0.8265050167224081,
+     "11": 0.9651313544865233,
+     "12": 0.8295644891122278,
+     "13": 0.9576954069298953
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "684.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "689.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "702.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "705.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "718.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "719.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "747.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "750.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "752.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "skipped",
+   "skipped_reason": "mask_has_no_badminton_zone_labels"
+  },
+  {
+   "image_id": "690.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "699.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "700.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "701.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "704.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "707.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "710.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "716.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712672,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "722.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712665,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "725.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712668,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "731.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.149945839712665,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "736.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1499458397126645,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "737.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1499458397126645,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "741.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1499458397126645,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  },
+  {
+   "image_id": "745.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "edge-aware unmerged fit: each raw 4-vertex zone click paired with its physical inner-line-edge coordinate (40 mm lines); RANSAC@8px(720p-equiv)+inlier LS; no image-space averaging.",
+   "source": "original_zone_polygon_clicks",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "metric_to_image": [
+    [
+     142.62954955172486,
+     -22.46704325090431,
+     515.6530807662963
+    ],
+    [
+     0.4706885531360946,
+     15.885595786277033,
+     460.1386389060653
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     95.08636636781657,
+     -14.978028833936207,
+     343.76872051086417
+    ],
+    [
+     0.31379236875739636,
+     10.590397190851355,
+     306.75909260404353
+    ],
+    [
+     0.00040918319063139644,
+     -0.024602511416830765,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 52,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 1.1499458397126552,
+    "fullcourt_iou": 0.9732483769557834,
+    "zone_miou": 0.9448415008859422,
+    "per_class_iou": {
+     "1": 0.9733659464601169,
+     "2": 0.9774945137040668,
+     "3": 0.9293181164285029,
+     "4": 0.9282351810932846,
+     "5": 0.9869420982048326,
+     "6": 0.9741426991150443,
+     "7": 0.9894259608007254,
+     "8": 0.9361004915346806,
+     "9": 0.9696171573699558,
+     "10": 0.8573802270839103,
+     "11": 0.962446402487867,
+     "12": 0.8541176470588235,
+     "13": 0.9443530701754386
+    },
+    "thresholds": {
+     "min_corrs": 16,
+     "min_inlier_ratio": 0.75,
+     "min_fullcourt_iou": 0.92,
+     "min_zone_miou": 0.8
+    }
+   }
+  }
+ ],
+ "summary": {
+  "artifact": "OFFICIAL_BENCHMARK_GT",
+  "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
+  "dataset": "badminton_zones",
+  "split": "test",
+  "n_images": 33,
+  "n_valid": 24,
+  "n_skipped": 9,
+  "n_failed": 0,
+  "tiers": {
+   "gold": 24,
+   "silver": 0
+  },
+  "residual_px720_inlier_rmse": {
+   "mean": 1.1656510621705094,
+   "median": 1.149945839712668,
+   "max": 1.1918264329335848
+  }
+ }
+}

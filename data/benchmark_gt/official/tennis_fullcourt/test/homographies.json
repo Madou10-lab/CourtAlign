@@ -1,0 +1,5278 @@
+{
+ "records": [
+  {
+   "image_id": "286.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "287.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "288.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "289.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "290.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "291.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "292.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "293.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "294.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "295.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "296.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "297.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "298.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "299.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "300.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "301.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.09497409606812,
+     -27.227192203059243,
+     738.5310220665147
+    ],
+    [
+     0.02694203181805145,
+     2.654823853591539,
+     148.0500109721064
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.063316064045413,
+     -18.15146146870616,
+     492.35401471100977
+    ],
+    [
+     0.017961354545367632,
+     1.769882569061026,
+     98.7000073147376
+    ],
+    [
+     0.00019435389728105222,
+     -0.02909117860493053,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6566965890487035,
+    "fullcourt_iou": 0.9937134414762105
+   }
+  },
+  {
+   "image_id": "302.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.17283512983212,
+     -27.224670172772953,
+     738.3113671621544
+    ],
+    [
+     0.06748954931410865,
+     2.6294221526772468,
+     148.75861777822354
+    ],
+    [
+     0.0002578625599546055,
+     -0.02909985782083329,
+     0.9999999999999999
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.115223419888082,
+     -18.14978011518197,
+     492.2075781081029
+    ],
+    [
+     0.04499303287607243,
+     1.7529481017848312,
+     99.17241185214903
+    ],
+    [
+     0.0002578625599546055,
+     -0.02909985782083329,
+     0.9999999999999999
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 328,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6569123399692912,
+    "fullcourt_iou": 0.9939053165319545
+   }
+  },
+  {
+   "image_id": "303.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.97847668773593,
+     -27.581976630308937,
+     736.6645896345234
+    ],
+    [
+     0.23317950836065457,
+     2.2504111152724224,
+     145.3207332758334
+    ],
+    [
+     0.00035854660385641046,
+     -0.029380841017589986,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.65231779182395,
+     -18.387984420205957,
+     491.10972642301556
+    ],
+    [
+     0.1554530055737697,
+     1.5002740768482816,
+     96.8804888505556
+    ],
+    [
+     0.00035854660385641046,
+     -0.029380841017589986,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.7648063772125938,
+    "fullcourt_iou": 0.994269050849517
+   }
+  },
+  {
+   "image_id": "304.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     36.97847668773593,
+     -27.581976630308937,
+     736.6645896345234
+    ],
+    [
+     0.23317950836065457,
+     2.2504111152724224,
+     145.3207332758334
+    ],
+    [
+     0.00035854660385641046,
+     -0.029380841017589986,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     24.65231779182395,
+     -18.387984420205957,
+     491.10972642301556
+    ],
+    [
+     0.1554530055737697,
+     1.5002740768482816,
+     96.8804888505556
+    ],
+    [
+     0.00035854660385641046,
+     -0.029380841017589986,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.7648063772125938,
+    "fullcourt_iou": 0.994269050849517
+   }
+  },
+  {
+   "image_id": "305.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "306.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "307.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "308.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "309.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "310.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "311.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "312.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "313.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "314.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     35.57740842993368,
+     -27.493098990050008,
+     745.6306505471154
+    ],
+    [
+     0.29204059900111595,
+     2.194174120307533,
+     140.20422070250416
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     23.718272286622454,
+     -18.32873266003334,
+     497.08710036474355
+    ],
+    [
+     0.19469373266741063,
+     1.4627827468716887,
+     93.4694804683361
+    ],
+    [
+     0.00040441193060986323,
+     -0.029263778090914412,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 338,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.8584909388135511,
+    "fullcourt_iou": 0.9941344588082816
+   }
+  },
+  {
+   "image_id": "315.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.10705616873192,
+     -26.766398885877486,
+     704.867404096907
+    ],
+    [
+     0.13162583772113612,
+     1.2839579570830335,
+     212.35126649174583
+    ],
+    [
+     6.045540820477842e-05,
+     -0.028030413849990738,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.071370779154613,
+     -17.84426592391832,
+     469.9116027312713
+    ],
+    [
+     0.08775055848075741,
+     0.855971971388689,
+     141.5675109944972
+    ],
+    [
+     6.045540820477842e-05,
+     -0.028030413849990738,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6334872782119974,
+    "fullcourt_iou": 0.9910993410004691
+   }
+  },
+  {
+   "image_id": "316.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "317.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "318.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "319.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "320.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.843718502687004,
+     -26.849252646101405,
+     694.9990448629512
+    ],
+    [
+     0.15826501852076305,
+     1.1395673404173496,
+     225.04360978804115
+    ],
+    [
+     7.520862082479156e-05,
+     -0.02812917468547104,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.229145668458003,
+     -17.8995017640676,
+     463.3326965753008
+    ],
+    [
+     0.10551001234717536,
+     0.7597115602782331,
+     150.02907319202743
+    ],
+    [
+     7.520862082479156e-05,
+     -0.02812917468547104,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.7379746107549323,
+    "fullcourt_iou": 0.9916282980503758
+   }
+  },
+  {
+   "image_id": "321.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "322.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "323.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "324.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.840625423486074,
+     -26.84960956800123,
+     695.0874007936966
+    ],
+    [
+     0.15028984848009805,
+     1.1505807888800925,
+     225.00146870742154
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.22708361565738,
+     -17.89973971200082,
+     463.39160052913104
+    ],
+    [
+     0.10019323232006536,
+     0.767053859253395,
+     150.00097913828102
+    ],
+    [
+     6.808128158690156e-05,
+     -0.028114497901777783,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 0.9805555555555555,
+    "residual_px720_inlier_rmse": 0.7125791178770946,
+    "fullcourt_iou": 0.9907331819173786
+   }
+  },
+  {
+   "image_id": "325.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.03804716735852,
+     -26.802801165581815,
+     705.3862670866915
+    ],
+    [
+     0.12530123003785268,
+     1.265471961932742,
+     212.2904805665324
+    ],
+    [
+     5.634032312907983e-05,
+     -0.028054965991597465,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.025364778239013,
+     -17.868534110387877,
+     470.25751139112765
+    ],
+    [
+     0.08353415335856845,
+     0.843647974621828,
+     141.52698704435494
+    ],
+    [
+     5.634032312907983e-05,
+     -0.028054965991597465,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6432439863702768,
+    "fullcourt_iou": 0.9895950112107623
+   }
+  },
+  {
+   "image_id": "326.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.322605404708476,
+     -26.714546927063065,
+     704.1663977679633
+    ],
+    [
+     0.18433703037748944,
+     1.3143690170608429,
+     212.29058263287305
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.21507026980565,
+     -17.809697951375377,
+     469.4442651786422
+    ],
+    [
+     0.12289135358499295,
+     0.8762460113738952,
+     141.52705508858202
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6777017141494344,
+    "fullcourt_iou": 0.9858355823490239
+   }
+  },
+  {
+   "image_id": "327.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.322605404708476,
+     -26.714546927063065,
+     704.1663977679633
+    ],
+    [
+     0.18433703037748944,
+     1.3143690170608429,
+     212.29058263287305
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.21507026980565,
+     -17.809697951375377,
+     469.4442651786422
+    ],
+    [
+     0.12289135358499295,
+     0.8762460113738952,
+     141.52705508858202
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6777017141494344,
+    "fullcourt_iou": 0.9858355823490239
+   }
+  },
+  {
+   "image_id": "328.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.322605404708476,
+     -26.714546927063065,
+     704.1663977679633
+    ],
+    [
+     0.18433703037748944,
+     1.3143690170608429,
+     212.29058263287305
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.21507026980565,
+     -17.809697951375377,
+     469.4442651786422
+    ],
+    [
+     0.12289135358499295,
+     0.8762460113738952,
+     141.52705508858202
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6777017141494344,
+    "fullcourt_iou": 0.9858355823490239
+   }
+  },
+  {
+   "image_id": "329.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.322605404708476,
+     -26.714546927063065,
+     704.1663977679633
+    ],
+    [
+     0.18433703037748944,
+     1.3143690170608429,
+     212.29058263287305
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.21507026980565,
+     -17.809697951375377,
+     469.4442651786422
+    ],
+    [
+     0.12289135358499295,
+     0.8762460113738952,
+     141.52705508858202
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6777017141494344,
+    "fullcourt_iou": 0.9858355823490239
+   }
+  },
+  {
+   "image_id": "330.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.322605404708476,
+     -26.714546927063065,
+     704.1663977679633
+    ],
+    [
+     0.18433703037748944,
+     1.3143690170608429,
+     212.29058263287305
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.21507026980565,
+     -17.809697951375377,
+     469.4442651786422
+    ],
+    [
+     0.12289135358499295,
+     0.8762460113738952,
+     141.52705508858202
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6777017141494344,
+    "fullcourt_iou": 0.9858355823490239
+   }
+  },
+  {
+   "image_id": "331.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.322605404708476,
+     -26.714546927063065,
+     704.1663977679633
+    ],
+    [
+     0.18433703037748944,
+     1.3143690170608429,
+     212.29058263287305
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.21507026980565,
+     -17.809697951375377,
+     469.4442651786422
+    ],
+    [
+     0.12289135358499295,
+     0.8762460113738952,
+     141.52705508858202
+    ],
+    [
+     0.00015145035416662227,
+     -0.02798494903176103,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6777017141494344,
+    "fullcourt_iou": 0.9858355823490239
+   }
+  },
+  {
+   "image_id": "332.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     45.32351387900114,
+     -26.73298714390011,
+     704.3322686671368
+    ],
+    [
+     0.18858601723558166,
+     1.3059360354049134,
+     212.2991251838697
+    ],
+    [
+     0.00016791934981704086,
+     -0.02799933309795142,
+     0.9999999999999999
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.215675919334092,
+     -17.82199142926674,
+     469.55484577809113
+    ],
+    [
+     0.12572401149038775,
+     0.8706240236032756,
+     141.53275012257978
+    ],
+    [
+     0.00016791934981704086,
+     -0.02799933309795142,
+     0.9999999999999999
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6812921190621887,
+    "fullcourt_iou": 0.9884477073243555
+   }
+  },
+  {
+   "image_id": "333.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.388163137846526,
+     -28.35001059811328,
+     748.2512026119957
+    ],
+    [
+     0.2417735895001507,
+     0.6390079803274985,
+     218.31035520071657
+    ],
+    [
+     0.0002521717903359334,
+     -0.029635942813685603,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.59210875856435,
+     -18.90000706540885,
+     498.8341350746638
+    ],
+    [
+     0.16118239300010045,
+     0.4260053202183323,
+     145.54023680047771
+    ],
+    [
+     0.0002521717903359334,
+     -0.029635942813685603,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5148037503220301,
+    "fullcourt_iou": 0.99056289410277
+   }
+  },
+  {
+   "image_id": "334.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.388163137846526,
+     -28.35001059811328,
+     748.2512026119957
+    ],
+    [
+     0.2417735895001507,
+     0.6390079803274985,
+     218.31035520071657
+    ],
+    [
+     0.0002521717903359334,
+     -0.029635942813685603,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.59210875856435,
+     -18.90000706540885,
+     498.8341350746638
+    ],
+    [
+     0.16118239300010045,
+     0.4260053202183323,
+     145.54023680047771
+    ],
+    [
+     0.0002521717903359334,
+     -0.029635942813685603,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5148037503220301,
+    "fullcourt_iou": 0.99056289410277
+   }
+  },
+  {
+   "image_id": "335.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.298679635762774,
+     -28.372398749716897,
+     748.7700244634906
+    ],
+    [
+     0.1987475299544286,
+     0.6064846424551676,
+     218.99723967846836
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.532453090508515,
+     -18.914932499811265,
+     499.1800163089937
+    ],
+    [
+     0.1324983533029524,
+     0.40432309497011176,
+     145.99815978564556
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 355,
+    "inlier_ratio": 0.971830985915493,
+    "residual_px720_inlier_rmse": 0.551887987729839,
+    "fullcourt_iou": 0.9934350178033415
+   }
+  },
+  {
+   "image_id": "336.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.298679635762774,
+     -28.372398749716897,
+     748.7700244634906
+    ],
+    [
+     0.1987475299544286,
+     0.6064846424551676,
+     218.99723967846836
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.532453090508515,
+     -18.914932499811265,
+     499.1800163089937
+    ],
+    [
+     0.1324983533029524,
+     0.40432309497011176,
+     145.99815978564556
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 355,
+    "inlier_ratio": 0.971830985915493,
+    "residual_px720_inlier_rmse": 0.551887987729839,
+    "fullcourt_iou": 0.9934350178033415
+   }
+  },
+  {
+   "image_id": "337.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.298679635762774,
+     -28.372398749716897,
+     748.7700244634906
+    ],
+    [
+     0.1987475299544286,
+     0.6064846424551676,
+     218.99723967846836
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.532453090508515,
+     -18.914932499811265,
+     499.1800163089937
+    ],
+    [
+     0.1324983533029524,
+     0.40432309497011176,
+     145.99815978564556
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 355,
+    "inlier_ratio": 0.971830985915493,
+    "residual_px720_inlier_rmse": 0.551887987729839,
+    "fullcourt_iou": 0.9934350178033415
+   }
+  },
+  {
+   "image_id": "338.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.298679635762774,
+     -28.372398749716897,
+     748.7700244634906
+    ],
+    [
+     0.1987475299544286,
+     0.6064846424551676,
+     218.99723967846836
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.532453090508515,
+     -18.914932499811265,
+     499.1800163089937
+    ],
+    [
+     0.1324983533029524,
+     0.40432309497011176,
+     145.99815978564556
+    ],
+    [
+     0.00020570000745510786,
+     -0.029645068419966628,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 355,
+    "inlier_ratio": 0.971830985915493,
+    "residual_px720_inlier_rmse": 0.551887987729839,
+    "fullcourt_iou": 0.9934350178033415
+   }
+  },
+  {
+   "image_id": "339.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "340.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "341.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "342.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "343.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "344.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "345.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "346.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "347.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "348.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "349.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "350.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "351.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "352.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "353.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "354.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "355.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "356.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "357.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "358.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "359.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "360.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "361.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "362.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "363.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "364.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.42060698644707,
+     -28.38626873139176,
+     748.5304309482511
+    ],
+    [
+     0.222806306028067,
+     0.607513590695376,
+     219.08139294710045
+    ],
+    [
+     0.00029636931781551495,
+     -0.02967156858564232,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.61373799096471,
+     -18.92417915426117,
+     499.0202872988341
+    ],
+    [
+     0.14853753735204467,
+     0.405009060463584,
+     146.05426196473363
+    ],
+    [
+     0.00029636931781551495,
+     -0.02967156858564232,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9887005649717514,
+    "residual_px720_inlier_rmse": 0.5668442219763199,
+    "fullcourt_iou": 0.9948998785888952
+   }
+  },
+  {
+   "image_id": "365.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.426176889880296,
+     -28.388714004431566,
+     748.6587285784389
+    ],
+    [
+     0.23019229433238286,
+     0.6089183130964089,
+     219.0225154070302
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.617451259920195,
+     -18.92580933628771,
+     499.10581905229253
+    ],
+    [
+     0.1534615295549219,
+     0.4059455420642726,
+     146.01501027135345
+    ],
+    [
+     0.00029518980918746433,
+     -0.029669934349545055,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5587993880013894,
+    "fullcourt_iou": 0.996029388508734
+   }
+  },
+  {
+   "image_id": "366.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.45837558713558,
+     -28.387304825093207,
+     748.6213776321788
+    ],
+    [
+     0.23475949999348075,
+     0.6102579900435637,
+     219.03649202303936
+    ],
+    [
+     0.0003179484246993479,
+     -0.02966825087455356,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.638917058090385,
+     -18.92486988339547,
+     499.0809184214525
+    ],
+    [
+     0.15650633332898717,
+     0.40683866002904245,
+     146.02432801535957
+    ],
+    [
+     0.0003179484246993479,
+     -0.02966825087455356,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5571107415544929,
+    "fullcourt_iou": 0.9948326487697088
+   }
+  },
+  {
+   "image_id": "367.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.45837558713558,
+     -28.387304825093207,
+     748.6213776321788
+    ],
+    [
+     0.23475949999348075,
+     0.6102579900435637,
+     219.03649202303936
+    ],
+    [
+     0.0003179484246993479,
+     -0.02966825087455356,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.638917058090385,
+     -18.92486988339547,
+     499.0809184214525
+    ],
+    [
+     0.15650633332898717,
+     0.40683866002904245,
+     146.02432801535957
+    ],
+    [
+     0.0003179484246993479,
+     -0.02966825087455356,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5571107415544929,
+    "fullcourt_iou": 0.9948326487697088
+   }
+  },
+  {
+   "image_id": "368.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     38.45837558713558,
+     -28.387304825093207,
+     748.6213776321788
+    ],
+    [
+     0.23475949999348075,
+     0.6102579900435637,
+     219.03649202303936
+    ],
+    [
+     0.0003179484246993479,
+     -0.02966825087455356,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     25.638917058090385,
+     -18.92486988339547,
+     499.0809184214525
+    ],
+    [
+     0.15650633332898717,
+     0.40683866002904245,
+     146.02432801535957
+    ],
+    [
+     0.0003179484246993479,
+     -0.02966825087455356,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 354,
+    "inlier_ratio": 0.9774011299435028,
+    "residual_px720_inlier_rmse": 0.5571107415544929,
+    "fullcourt_iou": 0.9948326487697088
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h02m29s237.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     60.55936268326024,
+     -22.145161156812037,
+     602.2489963551782
+    ],
+    [
+     0.2543148487847101,
+     3.2816936488573067,
+     277.7280683457593
+    ],
+    [
+     0.0003359218174648792,
+     -0.023715447318024156,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     40.372908455506824,
+     -14.763440771208025,
+     401.4993309034521
+    ],
+    [
+     0.16954323252314007,
+     2.187795765904871,
+     185.15204556383952
+    ],
+    [
+     0.0003359218174648792,
+     -0.023715447318024156,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.620674160861809,
+    "fullcourt_iou": 0.9951216324271128
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h02m34s841.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     61.33753602955599,
+     -22.894206273322744,
+     627.528267028396
+    ],
+    [
+     0.2751619025121319,
+     3.0251899266311906,
+     295.5324972949697
+    ],
+    [
+     -2.634753380394225e-05,
+     -0.023699129741305336,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     40.89169068637066,
+     -15.262804182215163,
+     418.35217801893066
+    ],
+    [
+     0.18344126834142127,
+     2.0167932844207934,
+     197.0216648633131
+    ],
+    [
+     -2.634753380394225e-05,
+     -0.023699129741305336,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.7239006279204507,
+    "fullcourt_iou": 0.9939020129242018
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h02m43s842.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     61.65040371273181,
+     -22.63543957684046,
+     614.8600470674819
+    ],
+    [
+     0.2204987314439365,
+     3.21501667816144,
+     289.11497359439096
+    ],
+    [
+     3.172505607750204e-05,
+     -0.023710829193871262,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     41.1002691418212,
+     -15.090293051226974,
+     409.90669804498793
+    ],
+    [
+     0.14699915429595767,
+     2.143344452107627,
+     192.74331572959397
+    ],
+    [
+     3.172505607750204e-05,
+     -0.023710829193871262,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.6576535238612126,
+    "fullcourt_iou": 0.992002424835575
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h02m53s158.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     56.66212850565704,
+     -26.179795997223486,
+     793.4012244659793
+    ],
+    [
+     0.4381534621498477,
+     3.4058240654936505,
+     260.4452607158637
+    ],
+    [
+     -0.0017903675967638351,
+     -0.023381973812004145,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     37.77475233710469,
+     -17.453197331482322,
+     528.9341496439862
+    ],
+    [
+     0.29210230809989846,
+     2.270549376995767,
+     173.6301738105758
+    ],
+    [
+     -0.0017903675967638351,
+     -0.023381973812004145,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.759419941685134,
+    "fullcourt_iou": 0.9923018134921266
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h02m58s364.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     49.840445767916826,
+     -26.135182439196264,
+     835.1462631745089
+    ],
+    [
+     0.562588492565101,
+     2.878683231431694,
+     237.48635279814076
+    ],
+    [
+     -0.0015923440820658594,
+     -0.023236805514919016,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     33.22696384527788,
+     -17.423454959464173,
+     556.7641754496726
+    ],
+    [
+     0.3750589950434007,
+     1.9191221542877959,
+     158.3242351987605
+    ],
+    [
+     -0.0015923440820658594,
+     -0.023236805514919016,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5098784704618449,
+    "fullcourt_iou": 0.9929151322179688
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h03m03s787.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     54.25547529813883,
+     -19.03828690723691,
+     517.8109249385639
+    ],
+    [
+     -0.03472972364601971,
+     2.8450016099674214,
+     251.2325366969039
+    ],
+    [
+     0.001584521446954395,
+     -0.0236717709778204,
+     0.9999999999999999
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     36.17031686542589,
+     -12.692191271491271,
+     345.2072832923759
+    ],
+    [
+     -0.02315314909734647,
+     1.8966677399782808,
+     167.48835779793592
+    ],
+    [
+     0.001584521446954395,
+     -0.0236717709778204,
+     0.9999999999999999
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 357,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.49995544635385014,
+    "fullcourt_iou": 0.994454515280721
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h03m14s124.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     51.826437965953566,
+     -24.062690561736307,
+     737.40133897655
+    ],
+    [
+     0.4058049775549531,
+     2.384048170346874,
+     265.17058419177386
+    ],
+    [
+     -0.0006033871782860561,
+     -0.02340332600384227,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     34.55095864396904,
+     -16.041793707824205,
+     491.60089265103335
+    ],
+    [
+     0.27053665170330204,
+     1.589365446897916,
+     176.78038946118255
+    ],
+    [
+     -0.0006033871782860561,
+     -0.02340332600384227,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.565016074521764,
+    "fullcourt_iou": 0.9901139180824043
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h03m31s178.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     61.592409950767255,
+     -22.903729687203615,
+     625.2823209338433
+    ],
+    [
+     0.26299248392769325,
+     3.229702705163151,
+     288.2916517208442
+    ],
+    [
+     -6.247320363587312e-05,
+     -0.023728326871664738,
+     0.9999999999999999
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     41.06160663384483,
+     -15.26915312480241,
+     416.8548806225622
+    ],
+    [
+     0.17532832261846215,
+     2.153135136775434,
+     192.1944344805628
+    ],
+    [
+     -6.247320363587312e-05,
+     -0.023728326871664738,
+     0.9999999999999999
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.696192473956713,
+    "fullcourt_iou": 0.9931346623270952
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m01s066.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     53.909684445629644,
+     -22.72659320985259,
+     666.2741977034665
+    ],
+    [
+     0.2375674722128734,
+     1.0030064620138406,
+     333.3138582937292
+    ],
+    [
+     -6.273143445163303e-05,
+     -0.023598653999433557,
+     0.9999999999999999
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     35.93978963041976,
+     -15.151062139901727,
+     444.18279846897764
+    ],
+    [
+     0.15837831480858225,
+     0.6686709746758936,
+     222.20923886248613
+    ],
+    [
+     -6.273143445163303e-05,
+     -0.023598653999433557,
+     0.9999999999999999
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5170400470604027,
+    "fullcourt_iou": 0.9972669240472459
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m06s317.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     50.171753856776874,
+     -22.84508097608267,
+     693.5114586021714
+    ],
+    [
+     0.25242046444223515,
+     0.07858282861010475,
+     347.87403210430995
+    ],
+    [
+     -7.447893325387617e-05,
+     -0.023546057755035814,
+     0.9999999999999999
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     33.447835904517916,
+     -15.230053984055113,
+     462.3409724014476
+    ],
+    [
+     0.16828030962815677,
+     0.0523885524067365,
+     231.9160214028733
+    ],
+    [
+     -7.447893325387617e-05,
+     -0.023546057755035814,
+     0.9999999999999999
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 356,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5034340746516069,
+    "fullcourt_iou": 0.9931605074462218
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m11s628.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "skipped",
+   "skipped_reason": "no_fullcourt_polygon"
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m15s430.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.13700760714478,
+     -22.77583768540911,
+     710.6077485813961
+    ],
+    [
+     0.3123849090368171,
+     -2.5443759015119123,
+     429.1750148328914
+    ],
+    [
+     8.058705137381915e-05,
+     -0.023628284109161693,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     30.758005071429853,
+     -15.183891790272739,
+     473.738499054264
+    ],
+    [
+     0.2082566060245447,
+     -1.6962506010079414,
+     286.11667655526094
+    ],
+    [
+     8.058705137381915e-05,
+     -0.023628284109161693,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5031301318489685,
+    "fullcourt_iou": 0.9941151552673596
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m21s943.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     47.16114026738534,
+     -22.54675802029038,
+     697.1715091552285
+    ],
+    [
+     0.2697103647946862,
+     -1.4905911788024218,
+     392.2166889869288
+    ],
+    [
+     0.00010301451201321287,
+     -0.02359051104978335,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.440760178256895,
+     -15.03117201352692,
+     464.78100610348565
+    ],
+    [
+     0.17980690986312411,
+     -0.9937274525349478,
+     261.4777926579525
+    ],
+    [
+     0.00010301451201321287,
+     -0.02359051104978335,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 358,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5140909770145624,
+    "fullcourt_iou": 0.9928771894655073
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m26s100.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     49.08357664114918,
+     -22.14741893554077,
+     669.6496954788372
+    ],
+    [
+     0.21129563736594972,
+     -0.4774751890636259,
+     362.012788063752
+    ],
+    [
+     0.00024296953484203164,
+     -0.023604731415242552,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     32.722384427432786,
+     -14.76494595702718,
+     446.4331303192248
+    ],
+    [
+     0.14086375824396646,
+     -0.3183167927090839,
+     241.34185870916798
+    ],
+    [
+     0.00024296953484203164,
+     -0.023604731415242552,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 359,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.44767560029188036,
+    "fullcourt_iou": 0.993924077230173
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m36s098.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     54.43616231303265,
+     -22.875928874728952,
+     663.4764005822083
+    ],
+    [
+     0.3040650026508134,
+     -0.24510675404698937,
+     385.4879178543317
+    ],
+    [
+     3.9331758908226e-05,
+     -0.023758954952706628,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     36.2907748753551,
+     -15.250619249819302,
+     442.3176003881388
+    ],
+    [
+     0.2027100017672089,
+     -0.1634045026979929,
+     256.9919452362211
+    ],
+    [
+     3.9331758908226e-05,
+     -0.023758954952706628,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.49133006073215596,
+    "fullcourt_iou": 0.9940526288868325
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m40s907.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     55.50135982154278,
+     -22.844737667542805,
+     657.1723866815538
+    ],
+    [
+     0.2768797336817245,
+     0.09325610741201878,
+     379.08983663448674
+    ],
+    [
+     3.398221513818115e-05,
+     -0.02373449921443321,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     37.00090654769518,
+     -15.229825111695202,
+     438.1149244543692
+    ],
+    [
+     0.18458648912114967,
+     0.062170738274679185,
+     252.7265577563245
+    ],
+    [
+     3.398221513818115e-05,
+     -0.02373449921443321,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 360,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.527121837837465,
+    "fullcourt_iou": 0.9956737961428052
+   }
+  },
+  {
+   "image_id": "vlcsnap-2023-06-28-14h13m46s711.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "test_detailed_region_polygons",
+   "status": "valid",
+   "native_wh": [
+    1920,
+    1080
+   ],
+   "derivation": "gold: identity-aware centerline fit of the line-axis template to the test-set line raster (derived from the detailed test region polygons \u2014 a separate region-annotation pass), initialized from the detailed full-court polygon's extreme corners.",
+   "metric_to_image": [
+    [
+     46.55302742955303,
+     -22.981995973741707,
+     719.1462660974917
+    ],
+    [
+     0.29503735574886475,
+     -1.747494171759772,
+     400.480083074293
+    ],
+    [
+     -6.690131654112101e-05,
+     -0.023544685256528357,
+     1.0
+    ]
+   ],
+   "metric_to_mask": [
+    [
+     31.03535161970202,
+     -15.321330649161137,
+     479.4308440649944
+    ],
+    [
+     0.19669157049924316,
+     -1.1649961145065146,
+     266.9867220495287
+    ],
+    [
+     -6.690131654112101e-05,
+     -0.023544685256528357,
+     1.0
+    ]
+   ],
+   "tier": "gold",
+   "validation": {
+    "n_correspondences": 353,
+    "inlier_ratio": 1.0,
+    "residual_px720_inlier_rmse": 0.5707299644481105,
+    "fullcourt_iou": 0.9962485435898749
+   }
+  }
+ ],
+ "summary": {
+  "artifact": "OFFICIAL_BENCHMARK_GT",
+  "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
+  "dataset": "tennis_fullcourt",
+  "split": "test",
+  "n_images": 100,
+  "n_valid": 99,
+  "n_skipped": 1,
+  "n_failed": 0,
+  "tiers": {
+   "gold": 99,
+   "silver": 0
+  },
+  "residual_px720_inlier_rmse": {
+   "mean": 0.6348766114077705,
+   "median": 0.6432439863702768,
+   "max": 0.8584909388135511
+  }
+ }
+}

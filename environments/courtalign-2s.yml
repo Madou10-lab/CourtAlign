@@ -1,0 +1,22 @@
+name: courtalign-2s
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch==2.3.0+cu121
+      - torchvision==0.18.0+cu121
+      - segmentation-models-pytorch==0.3.3
+      - albumentations==1.4.7
+      - pydantic==2.13.4
+      - opencv-python-headless==4.11.0.86
+      - numpy==1.26.4
+      - pandas==2.2.3
+      - pillow==11.3.0
+      - scikit-learn==1.6.0
+      - scikit-image==0.22.0
+      - sympy==1.12
+      - tqdm==4.67.1
+      - pytest==9.0.3
