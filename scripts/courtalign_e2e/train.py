@@ -13,7 +13,6 @@ import argparse
 import csv
 import json
 import sys
-import time
 from pathlib import Path
 
 import numpy as np
@@ -79,6 +78,9 @@ def main() -> int:
 
     loss_fn = CourtAlignE2ELoss(cfg, lat, pack["zone_polys"], pack["zone_class_of_poly"],
                      (ih, iw), device)
+    print(f"[loss] reproj_formulation={cfg.get('reproj_formulation', 'pixel_huber_v1')} "
+          f"delta_px={loss_fn.reproj_delta_px:g} e_max_px={loss_fn.reproj_e_max_px:g} "
+          f"weight={loss_fn.w['reproj']:g}")
     head_lr = cfg.get("lr", 3e-4)
     wd = cfg.get("weight_decay", 1e-4)
     if bb_trainable:
@@ -100,7 +102,8 @@ def main() -> int:
         with open(metrics_csv, "w", newline="") as fh:
             csv.writer(fh).writerow(["epoch", "lr", "train_loss", "val_loss", "val_reproj_px",
                                      "val_landmark_px", "val_seg_miou",
-                                     "seg", "heat", "coord", "reproj", "tmpl"])
+                                     "seg", "heat", "coord", "reproj", "tmpl",
+                                     "pres", "geo_valid_frac"])
 
     src_metric = torch.tensor(pack["lattice"], dtype=torch.float32, device=device)
     sx, sy = NATIVE_W / iw, NATIVE_H / ih          # input px -> native px
@@ -167,9 +170,7 @@ def main() -> int:
         sched.step()
 
         model.eval()
-        vl, vr, vlm, inter_u = 0.0, [], [], None
-        from courtalign_e2e.eval.metrics import NATIVE_W as _  # noqa
-        import torch.nn.functional as F
+        vl, vr, vlm = 0.0, [], []
         conf_mat = np.zeros((pack["n_classes"], pack["n_classes"]), np.int64)
         with torch.no_grad():
             for batch in dl_va:
@@ -209,10 +210,12 @@ def main() -> int:
         with open(metrics_csv, "a", newline="") as fh:
             csv.writer(fh).writerow([epoch, f"{sched.get_last_lr()[0]:.2e}", f"{tl:.4f}",
                                      f"{vl:.4f}", f"{val_reproj:.2f}", f"{val_lm:.2f}",
-                                     f"{miou:.4f}"] + [f"{comp.get(k, 0):.4f}" for k in
-                                                       ("seg", "heat", "coord", "reproj", "tmpl")])
+                                     f"{miou:.4f}"] + [f"{comp.get(k, 0):.6f}" for k in
+                                                       ("seg", "heat", "coord", "reproj", "tmpl",
+                                                        "pres", "geo_valid_frac")])
         print(f"ep {epoch:3d} | loss {tl:.4f}/{vl:.4f} | val reproj {val_reproj:7.2f}px "
-              f"| lm {val_lm:6.2f}px | mIoU {miou:.4f}"
+              f"| lm {val_lm:6.2f}px | mIoU {miou:.4f} "
+              f"| reproj_term {comp.get('reproj', 0):.6f}"
               + (f" | segphase={seg_phase}" if seg_phase != "all" else ""))
 
         if val_reproj <= best["val_reproj_px"]:

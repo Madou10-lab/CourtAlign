@@ -24,13 +24,16 @@
     "seg": 1.0,
     "heat": 1.0,
     "coord": 1.0,
-    "reproj": 2.0,
+    "reproj": 0.15,
     "tmpl": 0.5,
     "pres": 0.5
   },
   "experiment_id": "courtalign_e2e_tennis",
   "sport": "tennis",
   "n_epochs": 60,
+  "reproj_formulation": "pixel_huber_v1",
+  "reproj_delta_px": 1.0,
+  "reproj_e_max_px": 50.0,
   "visibility_head": true,
   "use_negatives": true
 }

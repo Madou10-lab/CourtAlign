@@ -71,7 +71,7 @@ class CourtAlignE2EDataset(Dataset):
                  lattice_metric: np.ndarray | None = None,
                  include_negatives: bool = False):
         """lattice_metric: optional override of the supervision landmark set
-        (e.g. zone centroids for CourtAlign-E2E badminton). When given,
+        for an optional centroid-based experiment. When given,
         lattice_uv is derived on the fly as project(H_sup, lattice_metric) —
         mathematically identical to how the stored lattice_uv was built.
         include_negatives: include court_visible=0 records for learned

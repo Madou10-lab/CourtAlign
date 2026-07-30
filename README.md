@@ -38,7 +38,9 @@ followed by the method-specific classical registration stage.
 CourtAlign-E2E jointly supervises semantic prediction, image correspondences,
 and homography accuracy. The SAM 3 vision transformer remains frozen, while
 the feature-pyramid neck and prediction heads are optimized on the target
-sport.
+sport. Both final configurations predict the official line-axis landmarks.
+The registration objective applies a Huber penalty to reprojection distances
+in input pixels, using a 1-pixel transition and a 50-pixel stability clamp.
 
 ## Quantitative comparison
 
@@ -57,18 +59,18 @@ frames. Full definitions and the LaTeX table are provided in
 | KaliCalib | 0.9553 | 0.0814 m | 3.5965 px | 0.5620 | 0.9921 | 0.0994 | 0.4808 | 0.6195 | 1/1 |
 | TVCalib | 0.9811 | 0.1079 m | 4.6104 px | 0.5209 | 0.9192 | 0.0736 | 0.4706 | 0.6090 | 0/1 |
 | **CourtAlign-2S** | **0.9964** | 0.0501 m | 2.4077 px | 0.8420 | 0.9913 | 0.1333 | 0.5989 | 0.7100 | **0/1** |
-| **CourtAlign-E2E** | 0.9960 | **0.0215 m** | **0.8826 px** | **0.9733** | **0.9993** | **0.1866** | **0.6509** | **0.7513** | **0/1** |
+| **CourtAlign-E2E** | 0.9960 | **0.0225 m** | **0.8728 px** | **0.9733** | **1.0000** | **0.1854** | **0.6507** | **0.7511** | **0/1** |
 
 ### Badminton
 
 | Method | IoU ↑ | Projection ↓ | Reprojection ↓ | PCK-H@5 ↑ | PCK-H@10 ↑ | Line-IoU@0 ↑ | @3 ↑ | @5 ↑ | NC-FP ↓ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| KpSFR | 0.9921 | 0.0280 m | **1.5817 px** | 0.9875 | 1.0000 | **0.1318** | **0.5679** | **0.6792** | 1/9 |
+| KpSFR | 0.9921 | 0.0280 m | **1.5817 px** | 0.9875 | 1.0000 | 0.1318 | 0.5679 | 0.6792 | 1/9 |
 | No-Bells-Just-Whistles | 0.9932 | 0.0528 m | 2.8805 px | 0.9764 | 1.0000 | 0.1108 | 0.5340 | 0.6523 | **0/9** |
 | KaliCalib | 0.9743 | 0.1430 m | 9.4600 px | 0.5181 | 0.8431 | 0.0792 | 0.4268 | 0.5445 | 9/9 |
 | TVCalib | 0.9867 | 0.1657 m | 9.6854 px | 0.1569 | 0.5028 | 0.0565 | 0.3161 | 0.4423 | 1/9 |
 | **CourtAlign-2S** | **0.9966** | 0.0375 m | 1.8840 px | **0.9986** | **1.0000** | 0.1281 | 0.5624 | 0.6744 | **0/9** |
-| **CourtAlign-E2E** | 0.9937 | **0.0274 m** | 1.7613 px | 0.9417 | 0.9986 | 0.1295 | 0.5666 | 0.6783 | **0/9** |
+| **CourtAlign-E2E** | 0.9948 | **0.0267 m** | 1.7346 px | 0.9417 | **1.0000** | **0.1336** | **0.5697** | **0.6808** | **0/9** |
 
 ## Accuracy--complexity comparison
 
@@ -270,8 +272,10 @@ python scripts/train.py --method courtalign-e2e --sport badminton
 
 The tennis and badminton jobs run for 60 and 80 epochs, respectively. Both use
 seed 1337 and select the checkpoint with the lowest validation lattice
-reprojection error. Interrupted jobs can restore the model, optimizer,
-scheduler, and best-checkpoint state:
+reprojection error. The reprojection loss is evaluated directly in input
+pixels with a weight of `0.15`, a 1-pixel Huber transition, and a 50-pixel
+clamp. Interrupted jobs can restore the model, optimizer, scheduler, and
+best-checkpoint state:
 
 ```bash
 python scripts/train.py --method courtalign-e2e --sport tennis --resume

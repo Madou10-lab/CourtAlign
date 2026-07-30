@@ -8,6 +8,7 @@ import torch
 
 from courtalign_e2e.geometry.homography_torch import project_h, weighted_dlt
 from courtalign_e2e.models.checkpoint import checkpoint_state_dict, load_checkpoint_state
+from courtalign_e2e.models.losses import reproj_loss
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +37,24 @@ def test_released_e2e_configs_use_the_final_sam3_recipe():
         assert config["n_epochs"] == epochs
         assert config["visibility_head"] is True
         assert config["use_negatives"] is True
+        assert config["reproj_formulation"] == "pixel_huber_v1"
+        assert config["reproj_delta_px"] == 1.0
+        assert config["reproj_e_max_px"] == 50.0
+        assert config["loss_weights"]["reproj"] == 0.15
+
+
+def test_e2e_reprojection_loss_uses_pixel_units():
+    source = torch.tensor(
+        [[[0.0, 0.0], [1.0, 0.0], [0.0, 1.0], [1.0, 1.0]]],
+        dtype=torch.float64,
+    )
+    target_h = torch.eye(3, dtype=torch.float64).unsqueeze(0)
+    predicted_h = target_h.clone()
+    predicted_h[:, 0, 2] = 2.0
+
+    loss = reproj_loss(predicted_h, target_h, source, delta_px=1.0, e_max_px=50.0)
+
+    assert torch.allclose(loss, torch.tensor([1.5], dtype=torch.float64))
 
 
 def test_weighted_dlt_recovers_a_well_constrained_homography():
