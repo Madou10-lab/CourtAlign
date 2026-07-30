@@ -1,6 +1,8 @@
 """CourtAlign-E2E losses with per-image confidence weights and visibility masks.
 
   L = λ_seg L_seg + λ_heat L_heat + λ_coord L_coord + λ_reproj L_reproj + λ_tmpl L_tmpl
+
+The reprojection term applies a Huber penalty directly to pixel-space errors.
 """
 
 from __future__ import annotations
@@ -77,16 +79,17 @@ def coord_huber(coords: torch.Tensor, uv: torch.Tensor, vis: torch.Tensor,
 
 
 def reproj_loss(H_pred: torch.Tensor, H_sup: torch.Tensor, src_metric: torch.Tensor,
-                diag: float, delta: float = 0.01, e_max: float = 2.0) -> torch.Tensor:
-    """Huber on normalized lattice reprojection error, CLAMPED at e_max.
+                delta_px: float = 1.0, e_max_px: float = 50.0) -> torch.Tensor:
+    """Huber loss on lattice reprojection error measured in input pixels.
 
-    The clamp bounds the loss when early soft-argmax predictions produce a
-    degenerate homography. Without this bound, the term can dominate the
-    initial optimization steps."""
+    The clamp bounds the contribution of degenerate homographies during the
+    first optimization steps while preserving a physically meaningful Huber
+    transition in pixels.
+    """
     p = project_h(H_pred, src_metric)
     q = project_h(H_sup, src_metric)
-    e = ((p - q).norm(dim=-1) / diag).clamp(max=e_max)
-    h = torch.where(e < delta, 0.5 * e ** 2 / delta, e - 0.5 * delta)
+    e = (p - q).norm(dim=-1).clamp(max=e_max_px)
+    h = torch.where(e < delta_px, 0.5 * e ** 2 / delta_px, e - 0.5 * delta_px)
     return h.mean(dim=1)
 
 
@@ -137,6 +140,11 @@ class CourtAlignE2ELoss:
         self.zone_pts = torch.tensor(np.concatenate(pts), dtype=torch.float32, device=device)
         self.zone_cls = torch.tensor(cls, dtype=torch.long, device=device)
         self.sigma = float(cfg.get("heat_sigma_px", 9.0))
+        formulation = cfg.get("reproj_formulation", "pixel_huber_v1")
+        if formulation != "pixel_huber_v1":
+            raise ValueError(f"Unsupported reprojection-loss formulation: {formulation!r}")
+        self.reproj_delta_px = float(cfg.get("reproj_delta_px", 1.0))
+        self.reproj_e_max_px = float(cfg.get("reproj_e_max_px", 50.0))
 
     def __call__(self, out: dict, batch: dict, n_classes: int,
                  geo_scale: float = 1.0, seg_active_classes: list | None = None) -> tuple:
@@ -156,7 +164,7 @@ class CourtAlignE2ELoss:
                                   self.input_hw, self.sigma)
             heat_term = heat_ce_with_absent(out["heat_spatial"], out["presence"],
                                             tgt, batch["vis"])
-        elif "heatmaps" in out:               # zone-centroid models have no heat head
+        elif "heatmaps" in out:               # optional centroid formulation
             hh, hw = out["heatmaps"].shape[-2:]
             tgt = heatmap_targets(batch["lattice_uv"], batch["vis"], hh, hw,
                                   self.input_hw, self.sigma)
@@ -175,7 +183,9 @@ class CourtAlignE2ELoss:
             "pres": pres_term,
             "coord": coord_huber(out["coords"], batch["lattice_uv"], batch["vis"], self.diag),
             "reproj": reproj_loss(out["H_pred"], batch["H_sup"],
-                                  self.src.expand(B, -1, -1), self.diag)
+                                  self.src.expand(B, -1, -1),
+                                  delta_px=self.reproj_delta_px,
+                                  e_max_px=self.reproj_e_max_px)
                       * valid * geo_scale * cv,
             "tmpl": template_sample_loss(out["H_pred"], batch["seg"],
                                          self.zone_pts, self.zone_cls,

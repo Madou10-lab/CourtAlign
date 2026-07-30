@@ -4,10 +4,7 @@ Architecture:
   frozen SAM 3 ViT trunk
   + fine-tuned SAM 3 feature-pyramid neck
   + trained segmentation and geometry heads
-  + sport-specific geometry:
-      "landmarks"      : landmark heatmaps on FPN -> soft-argmax
-      "zone_centroids" : optional differentiable per-zone centroids of the
-                         zone probability maps
+  + official line-axis landmark heatmaps on FPN -> soft-argmax
   -> confidence-weighted differentiable DLT -> H_pred
 
 The registration losses back-propagate through the DLT into the heads AND into
@@ -82,10 +79,9 @@ class CourtAlignE2E(nn.Module):
         gives the model an abstention channel: `conf` becomes the absolute
         presence probability instead of relative softmax peakiness.
 
-        In zone_centroids mode, visibility_head attaches a per-zone presence
-        head (GAP -> Linear -> sigmoid) so the learned-rejection recipe
-        (presence supervision + negative frames + presence gate) carries over
-        to the centroid geometric formulation."""
+        The optional zone-centroid mode retains a per-zone presence head for
+        controlled experiments. The released tennis and badminton configs use
+        the official line-axis landmark formulation."""
         super().__init__()
         assert sport_mode in ("landmarks", "zone_centroids")
         self.mode = sport_mode

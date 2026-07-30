@@ -24,13 +24,16 @@
     "seg": 1.0,
     "heat": 1.0,
     "coord": 1.0,
-    "reproj": 2.0,
+    "reproj": 0.15,
     "tmpl": 0.5,
     "pres": 0.5
   },
   "experiment_id": "courtalign_e2e_badminton",
   "sport": "badminton",
   "n_epochs": 80,
+  "reproj_formulation": "pixel_huber_v1",
+  "reproj_delta_px": 1.0,
+  "reproj_e_max_px": 50.0,
   "seg_loss_schedule": [
     {"name": "phase_1", "start_epoch": 1, "end_epoch": 14, "active_class_ids": "all"},
     {"name": "phase_2", "start_epoch": 15, "end_epoch": 15, "active_class_ids": [10, 12], "active_class_names": ["bl_singles", "br_singles"]},

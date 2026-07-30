@@ -6,6 +6,8 @@ import numpy as np
 
 
 def resolve_lattice(cfg: dict, pack: dict) -> np.ndarray:
+    # Released tennis and badminton configs use axis landmarks. Centroids remain
+    # available only when an experimental config requests them explicitly.
     if cfg.get("lattice_mode", "axis_landmarks") == "zone_centroids":
         zids = sorted(pack["zone_polys"])
         return np.array([np.mean(np.asarray(pack["zone_polys"][z], np.float64), axis=0)

@@ -48,12 +48,12 @@ CHECKPOINTS = {
         "5bdae8e774cf6d9276791b5a152f2aa9958a76bc905510ba6a9274a174541633",
     ),
     "weights/courtalign_e2e/tennis/best_model.pt": (
-        1_819_646_017,
-        "509d2816de9771ed53c07e0dae4a0c0e824f59c18661b82016a27fc78fda9601",
+        1_819_646_593,
+        "77607584497e3bce018b08cf92dfd2f8a9a8bd76c5c5b580a8e626217fcfc706",
     ),
     "weights/courtalign_e2e/badminton/best_model.pt": (
-        1_819_674_113,
-        "fd664fae2bb54c890d03941414baa9f8af1802062025df32570ff658ba94b303",
+        1_819_674_625,
+        "c0689a660201d06d0edb8d9a7f365382c9c8491f92a8b4e96dc1bf09ce3615f2",
     ),
 }
 

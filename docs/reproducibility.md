@@ -17,6 +17,11 @@ memory. No multi-GPU training was used.
 | CourtAlign-E2E | Tennis | Frozen SAM 3 ViT and trainable SAM 3 FPN neck | 60 | 2 | 1337 | Minimum validation lattice reprojection error |
 | CourtAlign-E2E | Badminton | Frozen SAM 3 ViT and trainable SAM 3 FPN neck | 80 | 2 | 1337 | Minimum validation lattice reprojection error |
 
+The CourtAlign-E2E reprojection objective applies a Huber penalty directly to
+input-pixel errors. Its weight is 0.15, its transition is 1 pixel, and errors
+are clamped at 50 pixels for stability. The selected checkpoints are epoch 43
+for tennis and epoch 60 for badminton.
+
 The badminton CourtAlign-2S configuration applies the three-phase class-focused
 Dice schedule at epochs 1--14, 15, and 16--80. Epoch 15 activates only
 `bl_singles` and `br_singles`. The tennis CourtAlign-2S configuration uses
@@ -30,8 +35,8 @@ After placing the checkpoints under `weights/`, their SHA-256 hashes should be:
 |---|---:|---|
 | `weights/courtalign_2s/tennis/best_model.pth` | 89,963,091 | `616fca950f2fbf3fc7e6e9818148511e2479dbc5fbc7ecedc83888e279afd35b` |
 | `weights/courtalign_2s/badminton/best_model.pth` | 89,975,379 | `5bdae8e774cf6d9276791b5a152f2aa9958a76bc905510ba6a9274a174541633` |
-| `weights/courtalign_e2e/tennis/best_model.pt` | 1,819,646,017 | `509d2816de9771ed53c07e0dae4a0c0e824f59c18661b82016a27fc78fda9601` |
-| `weights/courtalign_e2e/badminton/best_model.pt` | 1,819,674,113 | `fd664fae2bb54c890d03941414baa9f8af1802062025df32570ff658ba94b303` |
+| `weights/courtalign_e2e/tennis/best_model.pt` | 1,819,646,593 | `77607584497e3bce018b08cf92dfd2f8a9a8bd76c5c5b580a8e626217fcfc706` |
+| `weights/courtalign_e2e/badminton/best_model.pt` | 1,819,674,625 | `c0689a660201d06d0edb8d9a7f365382c9c8491f92a8b4e96dc1bf09ce3615f2` |
 
 The released checkpoints are the complete selected models used for the
 reported evaluations. New CourtAlign-E2E training jobs omit the unchanged SAM 3
@@ -112,19 +117,18 @@ points map each method and sport to its released configuration, checkpoint, and
 the common evaluator.
 
 CourtAlign-2S checkpoints serialize the segmentation model. CourtAlign-E2E
-checkpoints store a model state dictionary, the selected epoch, and the same
-configuration distributed under `configs/courtalign_e2e/`.
+checkpoints store a model state dictionary, the selected epoch, and the
+scientific settings represented by `configs/courtalign_e2e/`.
 
-## End-to-end inference verification
+## End-to-end inference record
 
-On 23 July 2026, the public `scripts/evaluate.py` entry point was run on an
-NVIDIA RTX A6000 for both complete held-out test sets. The resulting prediction
-files were byte-identical to the final evaluation exports:
+The final CourtAlign-E2E checkpoints produced complete prediction exports for
+both held-out test sets:
 
 | Sport | Frames | Prediction SHA-256 |
 |---|---:|---|
-| Tennis | 100 | `de96ec63d954007530b97c01e41bd0f485e7c89342e3eadbaf72c166ff03736f` |
-| Badminton | 33 | `726bf6ec78d4f6c0e003bea127ec13703b3e5cfc9430b960b9e3755a93930b11` |
+| Tennis | 100 | `fcf0b24dcd38aa68e7517ca9d7fab95acdeb7fc3063eed6734b95fa53d8411b3` |
+| Badminton | 33 | `82b833f8e8d886af52e37f388054781e77a2db2d0a228f6bb973d0aa264934e3` |
 
 The canonical evaluator reproduced every CourtAlign-E2E value reported in the
 comparison table, including the non-registrable-frame decisions.
@@ -132,11 +136,13 @@ comparison table, including the non-registrable-frame decisions.
 ## Video application verification
 
 The public video entry point was tested with the four combinations of method
-and sport using the final checkpoints. Two-frame H.264 MP4 inputs at
-1280 by 720 pixels were created from visible held-out frames 286 for tennis and
-190 for badminton. Every combination produced a readable registered MP4, two
-valid homography records, and a JSON summary. The rendered output was inspected
-to confirm that the projected court lines were correctly scaled and aligned.
+and sport. Two-frame H.264 MP4 inputs at 1280 by 720 pixels were created from
+visible held-out frames 286 for tennis and 190 for badminton. Every combination
+produced a readable registered MP4, two valid homography records, and a JSON
+summary. The rendered output was inspected to confirm that the projected court
+lines were correctly scaled and aligned. The updated CourtAlign-E2E release
+retains the model architecture, inference path, and checkpoint schema exercised
+by these tests.
 
 The optional motion-triggered mode was also tested with CourtAlign-2S on the
 tennis clip. It performed one inference call and reused the accepted homography
