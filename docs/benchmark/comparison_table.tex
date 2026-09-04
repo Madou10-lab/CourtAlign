@@ -1,43 +1,60 @@
-\begin{table*}[t]
+% Court-registration comparison on the CourtAlign racket-sports dataset.
+% Multi-seed protocol: metrics are averaged over frames within a run, then
+% reported as mean +/- standard deviation across training seeds.
+% Required citation keys: chu2022sports, Gutierrez-Perez_2024_CVPR,
+% maglo2022kalicalib, theiner2023tvcalib, gutierrez2026pnlcalib.
+% Required packages: booktabs, multirow, graphicx, xcolor (with the table option
+% for \rowcolor).
+\begin{table*}[t!]
 \centering
 \scriptsize
 \setlength{\tabcolsep}{3.2pt}
-\caption{Quantitative results for court registration on the tennis and badminton datasets. All metrics are reported as the mean over the court-visible test frames, while NC-FP reports the number of false registrations among the non-registrable frames. IoU, PCK-H, and Line-IoU are reported as fractions in $[0,1]$. Upward and downward arrows denote metrics for which higher and lower values are better. Best values within each sport are shown in \textbf{bold}.}
+\caption{\textbf{Court-registration comparison on our racket-sports dataset.} For each run, metrics are averaged over frames, with mean $\pm$ standard deviation reported across seeds. NC-FP reports the mean seed-level number of false registrations among the non-registrable frames.}
 \label{tab:court_registration_comparison}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{llccccccccc}
+\begin{tabular}{llcccccccc}
 \toprule
 \multirow{2}{*}{\textbf{Sport}} & \multirow{2}{*}{\textbf{Method}}
-& \multirow{2}{*}{\textbf{IoU} $\uparrow$}
+& \multirow{2}{*}{\textbf{IoU (\%)} $\uparrow$}
 & \multirow{2}{*}{\textbf{Proj. (m)} $\downarrow$}
 & \multirow{2}{*}{\textbf{Reproj. (px)} $\downarrow$}
-& \multicolumn{2}{c}{\textbf{PCK-H} $\uparrow$}
-& \multicolumn{3}{c}{\textbf{Line-IoU} $\uparrow$}
+& \multirow{2}{*}{\textbf{$\text{PCK}_{\mathrm{H}}@5\,\text{px}$ (\%)} $\uparrow$}
+& \multicolumn{3}{c}{\textbf{Line-IoU (\%)} $\uparrow$}
 & \multirow{2}{*}{\textbf{NC-FP} $\downarrow$} \\
-\cmidrule(lr){6-7} \cmidrule(lr){8-10}
-& & & & & @5 & @10 & @0 & @3 & @5 & \\
+\cmidrule(lr){7-9}
+& & & & & & @0 & @3 & @5 & \\
 \midrule
-\multirow{6}{*}{Tennis}
-& KpSFR~\cite{chu2022sports} & 0.9647 & 0.1186 & 3.9002 & 0.4509 & 0.8571 & 0.0697 & 0.4161 & 0.5623 & \textbf{0/1} \\
-& No-Bells-Just-Whistles~\cite{Gutierrez-Perez_2024_CVPR} & 0.9899 & 0.0605 & 2.5114 & 0.8470 & 0.9921 & 0.1156 & 0.5771 & 0.6945 & 1/1 \\
-& KaliCalib~\cite{maglo2022kalicalib} & 0.9553 & 0.0814 & 3.5965 & 0.5620 & 0.9921 & 0.0994 & 0.4808 & 0.6195 & 1/1 \\
-& TVCalib~\cite{theiner2023tvcalib} & 0.9811 & 0.1079 & 4.6104 & 0.5209 & 0.9192 & 0.0736 & 0.4706 & 0.6090 & \textbf{0/1} \\
+\multirow{7}{*}{Tennis}
+& KpSFR~\cite{chu2022sports} & 96.43{\tiny$\pm$0.31} & 0.11{\tiny$\pm$0.01} & 3.71{\tiny$\pm$0.33} & 48.65{\tiny$\pm$5.32} & 7.34{\tiny$\pm$0.67} & 42.85{\tiny$\pm$2.82} & 57.18{\tiny$\pm$2.58} & 0/20 \\
+& No-Bells-Just-Whistles~\cite{Gutierrez-Perez_2024_CVPR} & 98.99{\tiny$\pm$0.11} & 0.06{\tiny$\pm$0.00} & 2.51{\tiny$\pm$0.15} & 84.70{\tiny$\pm$0.96} & 11.56{\tiny$\pm$0.52} & 57.71{\tiny$\pm$0.63} & 69.45{\tiny$\pm$0.55} & 18.5/20 \\
+& KaliCalib~\cite{maglo2022kalicalib} & 95.53{\tiny$\pm$0.22} & 0.08{\tiny$\pm$0.01} & 3.60{\tiny$\pm$1.33} & 56.20{\tiny$\pm$7.20} & 9.94{\tiny$\pm$0.72} & 48.08{\tiny$\pm$2.60} & 61.95{\tiny$\pm$2.78} & 20/20 \\
+& TVCalib~\cite{theiner2023tvcalib} & 98.11{\tiny$\pm$0.31} & 0.11{\tiny$\pm$0.00} & 4.61{\tiny$\pm$0.36} & 52.09{\tiny$\pm$2.66} & 7.36{\tiny$\pm$0.22} & 47.06{\tiny$\pm$0.70} & 60.90{\tiny$\pm$1.05} & 0/20 \\
+& PnLCalib~\cite{gutierrez2026pnlcalib} & 98.93{\tiny$\pm$0.15} & 0.05{\tiny$\pm$0.00} & 2.20{\tiny$\pm$0.32} & 89.39{\tiny$\pm$8.22} & 13.78{\tiny$\pm$2.03} & 61.52{\tiny$\pm$1.68} & 72.40{\tiny$\pm$1.35} & 2/20 \\
 \rowcolor{blue!5}\cellcolor{white}
-& \textbf{CourtAlign-2S (Ours)}~\cite{jouini2024deep} & \textbf{0.9964} & 0.0501 & 2.4077 & 0.8420 & 0.9913 & 0.1333 & 0.5989 & 0.7100 & \textbf{0/1} \\
+& \textbf{CourtAlign-2S (Ours)} & \textbf{99.68{\tiny$\pm$0.05}} & 0.05{\tiny$\pm$0.00} & 2.20{\tiny$\pm$0.29} & 83.41{\tiny$\pm$1.12} & 13.72{\tiny$\pm$0.54} & 60.44{\tiny$\pm$0.78} & 71.41{\tiny$\pm$0.58} & \textbf{0/20} \\
 \rowcolor{blue!5}\cellcolor{white}
-& \textbf{CourtAlign-E2E (Ours)} & 0.9960 & \textbf{0.0225} & \textbf{0.8728} & \textbf{0.9733} & \textbf{1.0000} & \textbf{0.1854} & \textbf{0.6507} & \textbf{0.7511} & \textbf{0/1} \\
+& \textbf{CourtAlign-E2E (Ours)} & 99.60{\tiny$\pm$0.08} & \textbf{0.02}{\tiny$\pm$0.01} & \textbf{0.87}{\tiny$\pm$0.12} & \textbf{97.33}{\tiny$\pm$0.73} & \textbf{18.54}{\tiny$\pm$0.17} & \textbf{65.07}{\tiny$\pm$0.15} & \textbf{75.11}{\tiny$\pm$0.11} & \textbf{0/20} \\
 \midrule
-\multirow{6}{*}{Badminton}
-& KpSFR~\cite{chu2022sports} & 0.9921 & 0.0280 & \textbf{1.5817} & 0.9875 & 1.0000 & 0.1318 & 0.5679 & 0.6792 & 1/9 \\
-& No-Bells-Just-Whistles~\cite{Gutierrez-Perez_2024_CVPR} & 0.9932 & 0.0528 & 2.8805 & 0.9764 & 1.0000 & 0.1108 & 0.5340 & 0.6523 & \textbf{0/9} \\
-& KaliCalib~\cite{maglo2022kalicalib} & 0.9743 & 0.1430 & 9.4600 & 0.5181 & 0.8431 & 0.0792 & 0.4268 & 0.5445 & 9/9 \\
-& TVCalib~\cite{theiner2023tvcalib} & 0.9867 & 0.1657 & 9.6854 & 0.1569 & 0.5028 & 0.0565 & 0.3161 & 0.4423 & 1/9 \\
+\multirow{7}{*}{Badminton}
+& KpSFR~\cite{chu2022sports} & 99.27{\tiny$\pm$0.20} & 0.03{\tiny$\pm$0.00} & \textbf{1.67{\tiny$\pm$0.08}} & \textbf{97.95{\tiny$\pm$0.66}} & 12.51{\tiny$\pm$0.53} & 55.93{\tiny$\pm$0.65} & 67.25{\tiny$\pm$0.51} & 0.75/20 \\
+& No-Bells-Just-Whistles~\cite{Gutierrez-Perez_2024_CVPR} & 99.33{\tiny$\pm$0.12} & 0.05{\tiny$\pm$0.00} & 2.90{\tiny$\pm$0.17} & 97.19{\tiny$\pm$1.20} & 11.13{\tiny$\pm$0.63} & 53.26{\tiny$\pm$0.72} & 65.12{\tiny$\pm$0.57} & 0/20 \\
+& KaliCalib~\cite{maglo2022kalicalib} & 97.53{\tiny$\pm$0.25} & 0.10{\tiny$\pm$0.03} & 6.18{\tiny$\pm$2.19} & 65.00{\tiny$\pm$9.48} & 7.91{\tiny$\pm$0.89} & 45.43{\tiny$\pm$3.11} & 57.70{\tiny$\pm$3.00} & 20/20 \\
+& TVCalib~\cite{theiner2023tvcalib} & 98.70{\tiny$\pm$0.36} & 0.15{\tiny$\pm$0.01} & 9.06{\tiny$\pm$0.47} & 19.76{\tiny$\pm$3.88} & 5.64{\tiny$\pm$0.38} & 32.27{\tiny$\pm$1.52} & 45.40{\tiny$\pm$1.12} & 5.25/20 \\
+& PnLCalib~\cite{gutierrez2026pnlcalib} & 99.06{\tiny$\pm$0.42} & 0.06{\tiny$\pm$0.02} & 3.22{\tiny$\pm$0.73} & 90.97{\tiny$\pm$10.43} & 11.37{\tiny$\pm$1.16} & 52.60{\tiny$\pm$3.31} & 64.42{\tiny$\pm$2.93} & 4.00/20 \\
 \rowcolor{blue!5}\cellcolor{white}
-& \textbf{CourtAlign-2S (Ours)}~\cite{jouini2024deep} & \textbf{0.9966} & 0.0375 & 1.8840 & \textbf{0.9986} & \textbf{1.0000} & 0.1281 & 0.5624 & 0.6744 & \textbf{0/9} \\
+& \textbf{CourtAlign-2S (Ours)} & 99.45{\tiny$\pm$0.19} & 0.05{\tiny$\pm$0.01} & 2.28{\tiny$\pm$0.36} & 97.27{\tiny$\pm$2.25} & 11.85{\tiny$\pm$0.85} & 54.79{\tiny$\pm$1.32} & 66.29{\tiny$\pm$1.05} & \textbf{0/20} \\
 \rowcolor{blue!5}\cellcolor{white}
-& \textbf{CourtAlign-E2E (Ours)} & 0.9948 & \textbf{0.0267} & 1.7346 & 0.9417 & \textbf{1.0000} & \textbf{0.1336} & \textbf{0.5697} & \textbf{0.6808} & \textbf{0/9} \\
+& \textbf{CourtAlign-E2E (Ours)}
+& \textbf{99.47{\tiny$\pm$0.01}}
+& \textbf{0.03{\tiny$\pm$0.00}}
+& 1.69{\tiny$\pm$0.05}
+& 94.86{\tiny$\pm$0.69}
+& \textbf{13.20{\tiny$\pm$0.16}}
+& \textbf{56.84{\tiny$\pm$0.12}}
+& \textbf{67.97{\tiny$\pm$0.09}}
+& \textbf{0/20} \\
 \bottomrule
-\multicolumn{11}{l}{\scriptsize \textit{Note:} Proj. = Projection; Reproj. = Reprojection.} \\
+\multicolumn{10}{l}{\scriptsize \textit{Note:} Proj. = Projection; Reproj. = Reprojection.} \\
 \end{tabular}%
 }
 \end{table*}

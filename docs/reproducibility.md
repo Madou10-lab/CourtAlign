@@ -85,7 +85,7 @@ explicit status and no homography. The canonical evaluator then computes IoU,
 projection error, reprojection error, PCK-H, Line-IoU, and non-court false
 registrations from the complete test manifest.
 
-The comparison and the released protocol report PCK-H@5 and PCK-H@10.
+The published comparison table reports PCK-H@5.
 
 ## Official commands
 

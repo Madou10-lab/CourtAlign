@@ -1,0 +1,40 @@
+% Auxiliary cross-sport transfer evaluation on the WC14 soccer benchmark.
+% This is NOT the primary CourtAlign benchmark; see comparison_table.tex for the
+% racket-sports results. Reprojection error here is in normalized image
+% coordinates, not pixels.
+% Required citation keys: nie2021robust, chu2022sports,
+% Gutierrez-Perez_2024_CVPR, gutierrez2026pnlcalib, Cioppa2022.
+% Required packages: booktabs, multirow, graphicx, xcolor (with the table option
+% for \rowcolor).
+\begin{table}[t!]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\caption{\textbf{Auxiliary cross-sport transfer evaluation on the WC14 soccer benchmark.}
+Projection error is reported in metres and reprojection error in normalized image coordinates.
+$^{*}$ denotes SoccerNet~\cite{Cioppa2022} pre-training, $^{\dagger}$ denotes WC14 fine-tuning, and Rob-Solv denotes inference-only RANSAC--DLT homography estimation.}
+\label{tab:wc14_benchmark}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\multirow{2}{*}{\textbf{Method}}
+& \multicolumn{2}{c}{\textbf{Proj. (m)} $\downarrow$}
+& \multicolumn{2}{c}{\textbf{Reproj.} $\downarrow$} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+& Mean & Median & Mean & Median \\
+\midrule
+Nie et al.~\cite{nie2021robust}                                     & 0.84 & 0.65 & 0.019 & 0.014 \\
+KpSFR~\cite{chu2022sports}                                          & 0.81 & 0.63 & 0.019 & 0.014 \\
+No-Bells-Just-Whistles~\cite{Gutierrez-Perez_2024_CVPR}$^{*}$       & 1.23 & 0.58 & 0.026 & 0.014 \\
+PnLCalib~\cite{gutierrez2026pnlcalib}$^{*\dagger}$                  & \textbf{0.60} & \textbf{0.42} & \textbf{0.014} & \textbf{0.010} \\
+\midrule
+\rowcolor{blue!5}\cellcolor{white}
+\textbf{CourtAlign-E2E (Ours)}$^{*\dagger}$
+& 0.83 & 0.46 & 0.020 & 0.012 \\
+\rowcolor{blue!5}\cellcolor{white}
+\textbf{CourtAlign-E2E w/Rob-Solv (Ours)}$^{*\dagger}$
+& 0.78 & 0.48 & 0.020 & 0.013 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

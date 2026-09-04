@@ -13,7 +13,7 @@ Decision rule (thresholds set on train/val, declared in config, never tuned on t
   1. court_area_frac = fraction of non-background pixels in the aux segmentation
      < cfg.no_court_area_frac (default 0.02)        -> skipped: no_court_detected
   2. landmark-geometry degenerate (spread below gate) or mean landmark
-     confidence < cfg.min_conf_mean (default 0.02)   -> failed: degenerate_geometry
+     confidence < cfg.min_conf_mean (released configs: 0.5) -> failed: degenerate_geometry
   3. otherwise                                        -> valid (H exported)
 
 Auxiliary metrics against valid ground-truth supervision are diagnostic. The

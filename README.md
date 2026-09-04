@@ -42,43 +42,92 @@ sport. Both final configurations predict the official line-axis landmarks.
 The registration objective applies a Huber penalty to reprojection distances
 in input pixels, using a 1-pixel transition and a 50-pixel stability clamp.
 
+### Registration validity
+
+Both variants return an explicit decision for every frame rather than a
+homography unconditionally, so replays, close-ups and crowd views are rejected
+instead of receiving a projected court. CourtAlign-2S applies a deterministic
+check to the recovered geometry. CourtAlign-E2E gates the candidate homography
+on three signals read from the network: the fraction of the frame the auxiliary
+segmentation assigns to a court class (`no_court_area_frac`), the spatial spread
+of the predicted keypoints (`min_spread_frac`), and their mean visibility
+confidence (`min_conf_mean`). The thresholds are declared in
+[`configs/courtalign_e2e/`](configs/courtalign_e2e) and are identical for both
+sports. A frame that fails any of them is written with an explicit failure
+status, which is what the NC-FP column below counts.
+
 ## Quantitative comparison
 
-All overlap and PCK values below are fractions in `[0, 1]`. Projection error is
-measured in meters on the reference court. Reprojection error is measured in
-native image pixels. NC-FP counts false registrations on non-registrable test
-frames. Full definitions and the LaTeX table are provided in
+IoU, PCK-H and Line-IoU are reported as percentages. Projection error is
+measured in metres on the reference court. Reprojection error is measured in
+native image pixels. Each method is trained with several seeds; a run is first
+averaged over the court-visible test frames, and the table reports the mean and
+standard deviation across seeds. NC-FP is the mean seed-level number of false
+registrations among the 20 non-registrable test frames of each sport, so a
+method that never asserts a court on a frame without one scores `0/20`. The
+LaTeX source of this table is
 [`docs/benchmark/comparison_table.tex`](docs/benchmark/comparison_table.tex).
 
 ### Tennis
 
-| Method | IoU ↑ | Projection ↓ | Reprojection ↓ | PCK-H@5 ↑ | PCK-H@10 ↑ | Line-IoU@0 ↑ | @3 ↑ | @5 ↑ | NC-FP ↓ |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| KpSFR | 0.9647 | 0.1186 m | 3.9002 px | 0.4509 | 0.8571 | 0.0697 | 0.4161 | 0.5623 | 0/1 |
-| No-Bells-Just-Whistles | 0.9899 | 0.0605 m | 2.5114 px | 0.8470 | 0.9921 | 0.1156 | 0.5771 | 0.6945 | 1/1 |
-| KaliCalib | 0.9553 | 0.0814 m | 3.5965 px | 0.5620 | 0.9921 | 0.0994 | 0.4808 | 0.6195 | 1/1 |
-| TVCalib | 0.9811 | 0.1079 m | 4.6104 px | 0.5209 | 0.9192 | 0.0736 | 0.4706 | 0.6090 | 0/1 |
-| **CourtAlign-2S** | **0.9964** | 0.0501 m | 2.4077 px | 0.8420 | 0.9913 | 0.1333 | 0.5989 | 0.7100 | **0/1** |
-| **CourtAlign-E2E** | 0.9960 | **0.0225 m** | **0.8728 px** | **0.9733** | **1.0000** | **0.1854** | **0.6507** | **0.7511** | **0/1** |
+| Method | IoU (%) ↑ | Proj. (m) ↓ | Reproj. (px) ↓ | PCK-H@5px (%) ↑ | Line-IoU@0 (%) ↑ | @3 ↑ | @5 ↑ | NC-FP ↓ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| KpSFR | 96.43 ± 0.31 | 0.11 ± 0.01 | 3.71 ± 0.33 | 48.65 ± 5.32 | 7.34 ± 0.67 | 42.85 ± 2.82 | 57.18 ± 2.58 | 0/20 |
+| No-Bells-Just-Whistles | 98.99 ± 0.11 | 0.06 ± 0.00 | 2.51 ± 0.15 | 84.70 ± 0.96 | 11.56 ± 0.52 | 57.71 ± 0.63 | 69.45 ± 0.55 | 18.5/20 |
+| KaliCalib | 95.53 ± 0.22 | 0.08 ± 0.01 | 3.60 ± 1.33 | 56.20 ± 7.20 | 9.94 ± 0.72 | 48.08 ± 2.60 | 61.95 ± 2.78 | 20/20 |
+| TVCalib | 98.11 ± 0.31 | 0.11 ± 0.00 | 4.61 ± 0.36 | 52.09 ± 2.66 | 7.36 ± 0.22 | 47.06 ± 0.70 | 60.90 ± 1.05 | 0/20 |
+| PnLCalib | 98.93 ± 0.15 | 0.05 ± 0.00 | 2.20 ± 0.32 | 89.39 ± 8.22 | 13.78 ± 2.03 | 61.52 ± 1.68 | 72.40 ± 1.35 | 2/20 |
+| **CourtAlign-2S** | **99.68 ± 0.05** | 0.05 ± 0.00 | 2.20 ± 0.29 | 83.41 ± 1.12 | 13.72 ± 0.54 | 60.44 ± 0.78 | 71.41 ± 0.58 | **0/20** |
+| **CourtAlign-E2E** | 99.60 ± 0.08 | **0.02 ± 0.01** | **0.87 ± 0.12** | **97.33 ± 0.73** | **18.54 ± 0.17** | **65.07 ± 0.15** | **75.11 ± 0.11** | **0/20** |
 
 ### Badminton
 
-| Method | IoU ↑ | Projection ↓ | Reprojection ↓ | PCK-H@5 ↑ | PCK-H@10 ↑ | Line-IoU@0 ↑ | @3 ↑ | @5 ↑ | NC-FP ↓ |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| KpSFR | 0.9921 | 0.0280 m | **1.5817 px** | 0.9875 | 1.0000 | 0.1318 | 0.5679 | 0.6792 | 1/9 |
-| No-Bells-Just-Whistles | 0.9932 | 0.0528 m | 2.8805 px | 0.9764 | 1.0000 | 0.1108 | 0.5340 | 0.6523 | **0/9** |
-| KaliCalib | 0.9743 | 0.1430 m | 9.4600 px | 0.5181 | 0.8431 | 0.0792 | 0.4268 | 0.5445 | 9/9 |
-| TVCalib | 0.9867 | 0.1657 m | 9.6854 px | 0.1569 | 0.5028 | 0.0565 | 0.3161 | 0.4423 | 1/9 |
-| **CourtAlign-2S** | **0.9966** | 0.0375 m | 1.8840 px | **0.9986** | **1.0000** | 0.1281 | 0.5624 | 0.6744 | **0/9** |
-| **CourtAlign-E2E** | 0.9948 | **0.0267 m** | 1.7346 px | 0.9417 | **1.0000** | **0.1336** | **0.5697** | **0.6808** | **0/9** |
+| Method | IoU (%) ↑ | Proj. (m) ↓ | Reproj. (px) ↓ | PCK-H@5px (%) ↑ | Line-IoU@0 (%) ↑ | @3 ↑ | @5 ↑ | NC-FP ↓ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| KpSFR | 99.27 ± 0.20 | 0.03 ± 0.00 | **1.67 ± 0.08** | **97.95 ± 0.66** | 12.51 ± 0.53 | 55.93 ± 0.65 | 67.25 ± 0.51 | 0.75/20 |
+| No-Bells-Just-Whistles | 99.33 ± 0.12 | 0.05 ± 0.00 | 2.90 ± 0.17 | 97.19 ± 1.20 | 11.13 ± 0.63 | 53.26 ± 0.72 | 65.12 ± 0.57 | 0/20 |
+| KaliCalib | 97.53 ± 0.25 | 0.10 ± 0.03 | 6.18 ± 2.19 | 65.00 ± 9.48 | 7.91 ± 0.89 | 45.43 ± 3.11 | 57.70 ± 3.00 | 20/20 |
+| TVCalib | 98.70 ± 0.36 | 0.15 ± 0.01 | 9.06 ± 0.47 | 19.76 ± 3.88 | 5.64 ± 0.38 | 32.27 ± 1.52 | 45.40 ± 1.12 | 5.25/20 |
+| PnLCalib | 99.06 ± 0.42 | 0.06 ± 0.02 | 3.22 ± 0.73 | 90.97 ± 10.43 | 11.37 ± 1.16 | 52.60 ± 3.31 | 64.42 ± 2.93 | 4.00/20 |
+| **CourtAlign-2S** | 99.45 ± 0.19 | 0.05 ± 0.01 | 2.28 ± 0.36 | 97.27 ± 2.25 | 11.85 ± 0.85 | 54.79 ± 1.32 | 66.29 ± 1.05 | **0/20** |
+| **CourtAlign-E2E** | **99.47 ± 0.01** | **0.03 ± 0.00** | 1.69 ± 0.05 | 94.86 ± 0.69 | **13.20 ± 0.16** | **56.84 ± 0.12** | **67.97 ± 0.09** | **0/20** |
+
+## Auxiliary cross-sport transfer on WC14
+
+This is an auxiliary study, not the primary CourtAlign benchmark. It asks
+whether the geometry-aware end-to-end formulation still applies outside racket
+sports, on a soccer field that is larger, more often only partly visible, and
+more locally ambiguous. Only CourtAlign-E2E is evaluated here: the CourtAlign-2S
+zone representation is tied to the racket-court geometry and does not transfer
+to a soccer field without a different sport-specific representation and
+correspondence extractor.
+
+Note the units differ from the racket-sports table above. Projection error is in
+**metres**, while reprojection error is in **normalized image coordinates**, not
+pixels. `*` marks SoccerNet pre-training, `†` marks WC14 fine-tuning, and
+Rob-Solv is an inference-only variant that replaces the confidence-weighted
+differentiable solver with RANSAC–DLT, leaving the trained network and the
+selected checkpoint unchanged. The LaTeX source is
+[`docs/benchmark/wc14_table.tex`](docs/benchmark/wc14_table.tex).
+
+| Method | Proj. mean (m) ↓ | Proj. median (m) ↓ | Reproj. mean ↓ | Reproj. median ↓ |
+|---|---:|---:|---:|---:|
+| Nie et al. | 0.84 | 0.65 | 0.019 | 0.014 |
+| KpSFR | 0.81 | 0.63 | 0.019 | 0.014 |
+| No-Bells-Just-Whistles* | 1.23 | 0.58 | 0.026 | 0.014 |
+| PnLCalib*† | **0.60** | **0.42** | **0.014** | **0.010** |
+| **CourtAlign-E2E*†** | 0.83 | 0.46 | 0.020 | 0.012 |
+| **CourtAlign-E2E w/Rob-Solv*†** | 0.78 | 0.48 | 0.020 | 0.013 |
 
 ## Accuracy--complexity comparison
 
 The figure relates the number of trainable parameters to mean reprojection
 error on the tennis test split. Lower reprojection error indicates more
 accurate geometric registration. Red stars identify the CourtAlign methods,
-while colored circles identify the compared methods. Parameter count measures
-trainable model size and should not be interpreted as runtime or memory usage.
+while colored circles identify the compared methods. The horizontal axis counts
+trainable parameters only. It is not a measure of total model size, runtime, or
+memory: CourtAlign-E2E keeps a large pretrained backbone frozen, so its
+trainable count is far smaller than the parameters it evaluates at inference.
 
 [![Trainable parameters versus mean reprojection error on tennis](docs/figures/params_vs_reprojection_tennis.png)](docs/figures/params_vs_reprojection_tennis.pdf)
 
