@@ -480,4 +480,38 @@ The benchmark includes the following related methods:
   year      = {2023},
   pages     = {1166--1175}
 }
+
+@article{gutierrez2026pnlcalib,
+  title     = {{PnLCalib}: Sports field registration via points and lines optimization},
+  author    = {Guti{\'e}rrez-P{\'e}rez, Marc and Agudo, Antonio},
+  journal   = {Computer Vision and Image Understanding},
+  volume    = {267},
+  pages     = {104712},
+  year      = {2026},
+  doi       = {10.1016/j.cviu.2026.104712}
+}
 ```
+
+The auxiliary WC14 cross-sport transfer evaluation additionally references:
+
+```bibtex
+@inproceedings{nie2021robust,
+  title     = {A robust and efficient framework for sports-field registration},
+  author    = {Nie, Xiaohan and Chen, Shixing and Hamid, Raffay},
+  booktitle = {WACV},
+  year      = {2021},
+  pages     = {1936--1944}
+}
+
+@article{Cioppa2022,
+  title     = {Scaling up {SoccerNet} with multi-view spatial localization and re-identification},
+  author    = {Cioppa, Anthony and Deli{\`e}ge, Adrien and Giancola, Silvio and Ghanem, Bernard and Van Droogenbroeck, Marc},
+  journal   = {Scientific Data},
+  volume    = {9},
+  number    = {1},
+  pages     = {355},
+  year      = {2022},
+  doi       = {10.1038/s41597-022-01469-1}
+}
+```
+
