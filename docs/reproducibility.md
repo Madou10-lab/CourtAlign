@@ -49,24 +49,26 @@ The frozen manifest hashes are:
 
 | Artifact | SHA-256 |
 |---|---|
-| `data/benchmark_gt/official/FREEZE_MANIFEST.json` | `3c18b784a1b62866ddc8093d95e3d57a04faf5bf2dc9f7a9967ecda75980a601` |
-| `data/benchmark_gt/official/HASHES.json` | `93ac4a879fd972cb1b42abe11b3f5c7d3a9e6a86f09df2382948bfa41eacd76f` |
-| `data/splits/tennis_fullcourt.csv` | `f9525d43abeb799ca788caee38835fb8481d38e4d69e2d94d01da28ebd841049` |
-| `data/splits/badminton_zones.csv` | `0af0a4a1147ac7b4ca01d3121b5967173468f2e7da4e1b2c9b18b94a686c4253` |
+| `data/benchmark_gt/official/FREEZE_MANIFEST.json` | `5eff9eaa12dfc67963e871d7a73a49770d8542abe474062e5b149f53ead1c868` |
+| `data/benchmark_gt/official/HASHES.json` | `ce2a4af1f97954a619ec94ddf832674d4e700eb686c0e68521093af99e62818b` |
+| `data/splits/tennis_fullcourt.csv` | `fe40f8bc69d5e902a98fa33146b8b6fbd3e44bf6ef107c0635e85d45a7b40609` |
+| `data/splits/badminton_zones.csv` | `d67bb370418c80fdd5f90b7aa5198c6f511ca8cea8d7cf1f7a4c199e21cd93f3` |
 | `data/courtalign_e2e/splits/tennis_groups.csv` | `aac5ac14df6396a6efc4d93ccc973c104440a120196349fcc7c89989297de4d9` |
-| `data/courtalign_e2e/supervision/tennis.json` | `4562f98a1e6d30a9cd1c5c7e267d1a7bc87440156bc98299ddb0f0da56cfe31e` |
-| `data/courtalign_e2e/supervision/badminton.json` | `5bd12473833f5a5841e8f2c1dc9265e5bd93504e3d174a5fe79932faead53419` |
+| `data/courtalign_e2e/supervision/tennis.json` | `e506fefbea31c9ac4295daf8c4e15cf042f1982aa6db6ff693f46355698e560a` |
+| `data/courtalign_e2e/supervision/badminton.json` | `76579b82c2bfea345eb137de8d9554d6333d050c910634964fc07e12c0edc303` |
 
-CourtAlign-2S sees 904 tennis training frames, 160 validation frames, and 100
+CourtAlign-2S sees 904 tennis training frames, 160 validation frames, and 119
 test frames. CourtAlign-E2E uses a rally-group-disjoint tennis training and
 validation assignment. Including non-registrable frames, its loaders see 918
-training frames, 146 validation frames, and the same 100 test frames. The
+training frames, 146 validation frames, and the same 119 test frames. The
 corresponding visible and non-registrable counts are 909 and 9 for training,
-143 and 3 for validation, and 99 and 1 for testing.
+143 and 3 for validation, and 99 and 20 for testing.
 
 Both methods use the same badminton split. The loaders see 436 training frames,
-95 validation frames, and 33 test frames. CourtAlign-E2E includes 125, 27, and 9
-non-registrable frames in those respective subsets for rejection supervision.
+95 validation frames, and 44 test frames. CourtAlign-E2E includes 125 and 27
+non-registrable frames in the training and validation subsets for rejection
+supervision. The test set contains 20 non-registrable frames used only for final
+evaluation.
 
 No test frame is used for checkpoint or threshold selection.
 
@@ -76,8 +78,8 @@ The geometric ground truth under `data/benchmark_gt/official/` is frozen by a
 hash manifest. `scripts/verify_setup.py` verifies those files, the split
 manifests, and the expected split sizes. The held-out sets contain:
 
-- tennis: 99 registrable frames and 1 non-registrable frame
-- badminton: 24 registrable frames and 9 non-registrable frames
+- tennis: 99 registrable frames and 20 non-registrable frames
+- badminton: 24 registrable frames and 20 non-registrable frames
 
 Both methods export the same schema. A valid record contains a 3-by-3
 metric-court-to-image homography. A failed or skipped record contains an
@@ -127,8 +129,8 @@ both held-out test sets:
 
 | Sport | Frames | Prediction SHA-256 |
 |---|---:|---|
-| Tennis | 100 | `fcf0b24dcd38aa68e7517ca9d7fab95acdeb7fc3063eed6734b95fa53d8411b3` |
-| Badminton | 33 | `82b833f8e8d886af52e37f388054781e77a2db2d0a228f6bb973d0aa264934e3` |
+| Tennis | 119 | `8b9adf7ac420bf383f7c96305252867fcf98db9520da9e1a55f8462801266ef0` |
+| Badminton | 44 | `872de90f88e00e5e30a08f1bb6911659273f529f282abfc198767cdc3558f2d1` |
 
 The canonical evaluator reproduced every CourtAlign-E2E value reported in the
 comparison table, including the non-registrable-frame decisions.

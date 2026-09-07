@@ -2,7 +2,7 @@
 """Build the rally-group-aware CourtAlign-E2E tennis train/validation split.
 
 Groups near-duplicate frames (same rally / camera) and assigns whole groups to
-train or val. The frozen 100-image test split is untouched. Also writes group
+train or val. The frozen 119-image test split is untouched. Also writes group
 ids for TEST frames (used by the label-free temporal-jitter metric).
 
 Output: data/courtalign_e2e/splits/tennis_groups.csv and its summary JSON.

@@ -9,14 +9,14 @@
   },
   "test_sets": {
     "tennis_fullcourt": {
-      "n_images": 100,
+      "n_images": 119,
       "n_registrable": 99,
-      "n_non_registrable": 1
+      "n_non_registrable": 20
     },
     "badminton_zones": {
-      "n_images": 33,
+      "n_images": 44,
       "n_registrable": 24,
-      "n_non_registrable": 9
+      "n_non_registrable": 20
     }
   }
 }

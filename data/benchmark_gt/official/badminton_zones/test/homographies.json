@@ -1880,6 +1880,105 @@
      "min_zone_miou": 0.8
     }
    }
+  },
+  {
+   "image_id": "BN001_B1_4140.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN004_B2_7700.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN006_B3_6980.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN007_B4_4890.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN011_B6_3945.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN012_B1_2731.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN013_B2_5348.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN014_B3_2218.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN015_B3_4812.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN016_B5_6086.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "BN017_B6_1171.png",
+   "split": "test",
+   "sport": "badminton",
+   "derivation": "non-registrable broadcast frame; no zone annotation is defined",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
   }
  ],
  "summary": {
@@ -1887,18 +1986,19 @@
   "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
   "dataset": "badminton_zones",
   "split": "test",
-  "n_images": 33,
+  "n_images": 44,
   "n_valid": 24,
-  "n_skipped": 9,
+  "n_skipped": 20,
   "n_failed": 0,
   "tiers": {
    "gold": 24,
    "silver": 0
   },
   "residual_px720_inlier_rmse": {
-   "mean": 1.1656510621705094,
+   "mean": 1.1656510621705096,
    "median": 1.149945839712668,
    "max": 1.1918264329335848
-  }
+  },
+  "non_registrable_definition": "A skipped record has no usable court geometry and therefore has no homography annotation."
  }
 }

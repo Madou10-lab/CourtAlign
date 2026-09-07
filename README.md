@@ -199,12 +199,13 @@ data/badminton_zones/
 The repository already contains the frozen manifests and official geometric
 ground truth. Dataset images and masks are intentionally excluded from Git.
 
-The shared held-out test sets contain 100 tennis frames and 33 badminton
-frames. CourtAlign-2S uses the frozen 904/160 tennis training and validation
-partition. CourtAlign-E2E keeps the same held-out test set but uses the included
-rally-group-disjoint tennis training and validation partition to prevent
-near-duplicate rally frames from crossing those two subsets. Both methods use
-the frozen 436/95/33 badminton partition.
+The shared held-out test sets contain 119 tennis frames and 44 badminton
+frames, comprising 99 and 24 registrable frames respectively and 20
+non-registrable frames for each sport. CourtAlign-2S uses the frozen 904/160
+tennis training and validation partition. CourtAlign-E2E keeps the same
+held-out test set but uses the included rally-group-disjoint tennis training
+and validation partition to prevent near-duplicate rally frames from crossing
+those two subsets. Both methods use the frozen 436/95/44 badminton partition.
 
 ## Pretrained weights
 

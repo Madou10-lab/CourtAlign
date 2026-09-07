@@ -5254,6 +5254,158 @@
     "residual_px720_inlier_rmse": 0.5707299644481105,
     "fullcourt_iou": 0.9962485435898749
    }
+  },
+  {
+   "image_id": "TN002_T1_11037.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN003_T1_10892.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN006_T2_7029.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN010_T3_5926.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN011_T4_9148.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN012_T4_4340.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN014_T5_7657.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN017_T6_1991.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN018_T7_3119.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN020_T1_2526.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN021_T1_6209.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN022_T2_2216.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN023_T2_4346.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN024_T3_8020.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN025_T4_2718.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN026_T4_6196.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN027_T5_5015.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN028_T6_1220.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
+  },
+  {
+   "image_id": "TN029_T7_1633.png",
+   "split": "test",
+   "sport": "tennis",
+   "source": "negative_test_extension_public_broadcast",
+   "status": "skipped",
+   "skipped_reason": "no_court_visible"
   }
  ],
  "summary": {
@@ -5261,18 +5413,19 @@
   "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
   "dataset": "tennis_fullcourt",
   "split": "test",
-  "n_images": 100,
+  "n_images": 119,
   "n_valid": 99,
-  "n_skipped": 1,
+  "n_skipped": 20,
   "n_failed": 0,
   "tiers": {
    "gold": 99,
    "silver": 0
   },
   "residual_px720_inlier_rmse": {
-   "mean": 0.6348766114077705,
+   "mean": 0.6348766114077713,
    "median": 0.6432439863702768,
    "max": 0.8584909388135511
-  }
+  },
+  "non_registrable_definition": "A skipped record has no usable court geometry and therefore has no homography annotation."
  }
 }

@@ -3,17 +3,18 @@
   "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
   "dataset": "tennis_fullcourt",
   "split": "test",
-  "n_images": 100,
+  "n_images": 119,
   "n_valid": 99,
-  "n_skipped": 1,
+  "n_skipped": 20,
   "n_failed": 0,
   "tiers": {
     "gold": 99,
     "silver": 0
   },
   "residual_px720_inlier_rmse": {
-    "mean": 0.6348766114077705,
+    "mean": 0.6348766114077713,
     "median": 0.6432439863702768,
     "max": 0.8584909388135511
-  }
+  },
+  "non_registrable_definition": "A skipped record has no usable court geometry and therefore has no homography annotation."
 }

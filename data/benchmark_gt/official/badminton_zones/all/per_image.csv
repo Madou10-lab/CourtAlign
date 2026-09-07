@@ -563,3 +563,14 @@ image_id,split,status,tier,native_w,native_h,n_corrs,inlier_ratio,residual_rmse_
 827.png,train,valid,gold,1920,1080,48,1.0,1.0528338211227597,0.9729195860275869,0.9333848586181889
 829.png,train,valid,gold,1920,1080,48,1.0,1.0528338211227597,0.9729195860275869,0.9333848586181889
 1070.png,train,valid,gold,1920,1080,44,1.0,1.170519712177195,0.9721293493707053,0.9520112179368093
+BN001_B1_4140.png,test,skipped,,,,,,,,
+BN004_B2_7700.png,test,skipped,,,,,,,,
+BN006_B3_6980.png,test,skipped,,,,,,,,
+BN007_B4_4890.png,test,skipped,,,,,,,,
+BN011_B6_3945.png,test,skipped,,,,,,,,
+BN012_B1_2731.png,test,skipped,,,,,,,,
+BN013_B2_5348.png,test,skipped,,,,,,,,
+BN014_B3_2218.png,test,skipped,,,,,,,,
+BN015_B3_4812.png,test,skipped,,,,,,,,
+BN016_B5_6086.png,test,skipped,,,,,,,,
+BN017_B6_1171.png,test,skipped,,,,,,,,

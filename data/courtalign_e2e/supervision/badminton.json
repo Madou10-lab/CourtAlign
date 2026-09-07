@@ -181,7 +181,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1.png",
@@ -364,7 +364,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "10.png",
@@ -550,7 +550,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1000.png",
@@ -736,7 +736,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1001.png",
@@ -922,7 +922,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1003.png",
@@ -1108,7 +1108,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1005.png",
@@ -1294,7 +1294,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1007.png",
@@ -1480,7 +1480,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1008.png",
@@ -1666,7 +1666,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1028.png",
@@ -1849,7 +1849,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1030.png",
@@ -2032,7 +2032,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1031.png",
@@ -2218,7 +2218,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1032.png",
@@ -2404,7 +2404,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1034.png",
@@ -2587,7 +2587,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1035.png",
@@ -2773,7 +2773,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1037.png",
@@ -2956,7 +2956,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1041.png",
@@ -3139,7 +3139,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1045.png",
@@ -3322,7 +3322,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1046.png",
@@ -3508,7 +3508,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1051.png",
@@ -3694,7 +3694,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1053.png",
@@ -3880,7 +3880,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1054.png",
@@ -4066,7 +4066,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "106.png",
@@ -4249,7 +4249,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1065.png",
@@ -4435,7 +4435,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1066.png",
@@ -4621,7 +4621,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1067.png",
@@ -4807,7 +4807,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1068.png",
@@ -4993,7 +4993,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1070.png",
@@ -5179,7 +5179,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1071.png",
@@ -5365,7 +5365,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1079.png",
@@ -5548,7 +5548,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1080.png",
@@ -5734,7 +5734,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1081.png",
@@ -5920,7 +5920,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1084.png",
@@ -6103,7 +6103,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1089.png",
@@ -6286,7 +6286,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "109.png",
@@ -6472,7 +6472,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1101.png",
@@ -6658,7 +6658,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1103.png",
@@ -6844,7 +6844,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1108.png",
@@ -7027,7 +7027,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1110.png",
@@ -7213,7 +7213,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1114.png",
@@ -7399,7 +7399,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1115.png",
@@ -7585,7 +7585,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1116.png",
@@ -7771,7 +7771,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1117.png",
@@ -7954,7 +7954,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1118.png",
@@ -8137,7 +8137,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1120.png",
@@ -8323,7 +8323,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1121.png",
@@ -8509,7 +8509,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1122.png",
@@ -8695,7 +8695,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1127.png",
@@ -8878,7 +8878,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1128.png",
@@ -9064,7 +9064,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1134.png",
@@ -9250,7 +9250,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1136.png",
@@ -9436,7 +9436,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1137.png",
@@ -9619,7 +9619,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1140.png",
@@ -9805,7 +9805,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1141.png",
@@ -9991,7 +9991,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1143.png",
@@ -10177,7 +10177,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1144.png",
@@ -10363,7 +10363,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1149.png",
@@ -10549,7 +10549,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "115.png",
@@ -10735,7 +10735,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1151.png",
@@ -10921,7 +10921,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1152.png",
@@ -11107,7 +11107,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1155.png",
@@ -11293,7 +11293,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1157.png",
@@ -11479,7 +11479,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1158.png",
@@ -11662,7 +11662,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1159.png",
@@ -11845,7 +11845,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1160.png",
@@ -12031,7 +12031,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1162.png",
@@ -12217,7 +12217,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1167.png",
@@ -12400,7 +12400,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "117.png",
@@ -12586,7 +12586,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1175.png",
@@ -12772,7 +12772,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1176.png",
@@ -12955,7 +12955,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1188.png",
@@ -13138,7 +13138,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "119.png",
@@ -13324,7 +13324,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1196.png",
@@ -13507,7 +13507,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "12.png",
@@ -13693,7 +13693,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1201.png",
@@ -13876,7 +13876,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1204.png",
@@ -14059,7 +14059,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1207.png",
@@ -14245,7 +14245,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1208.png",
@@ -14431,7 +14431,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "121.png",
@@ -14614,7 +14614,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1210.png",
@@ -14800,7 +14800,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1211.png",
@@ -14986,7 +14986,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1212.png",
@@ -15172,7 +15172,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "122.png",
@@ -15355,7 +15355,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1222.png",
@@ -15538,7 +15538,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1223.png",
@@ -15724,7 +15724,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1227.png",
@@ -15910,7 +15910,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1228.png",
@@ -16096,7 +16096,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1229.png",
@@ -16279,7 +16279,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "123.png",
@@ -16465,7 +16465,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1231.png",
@@ -16648,7 +16648,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "124.png",
@@ -16831,7 +16831,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1245.png",
@@ -17017,7 +17017,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1247.png",
@@ -17200,7 +17200,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1253.png",
@@ -17386,7 +17386,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1254.png",
@@ -17569,7 +17569,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1255.png",
@@ -17755,7 +17755,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1257.png",
@@ -17941,7 +17941,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1259.png",
@@ -18124,7 +18124,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1260.png",
@@ -18307,7 +18307,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1264.png",
@@ -18493,7 +18493,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1265.png",
@@ -18679,7 +18679,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1266.png",
@@ -18862,7 +18862,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1267.png",
@@ -19048,7 +19048,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1268.png",
@@ -19231,7 +19231,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1269.png",
@@ -19417,7 +19417,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1270.png",
@@ -19600,7 +19600,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1274.png",
@@ -19783,7 +19783,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1277.png",
@@ -19966,7 +19966,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1278.png",
@@ -20152,7 +20152,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1280.png",
@@ -20338,7 +20338,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1281.png",
@@ -20524,7 +20524,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1282.png",
@@ -20707,7 +20707,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1283.png",
@@ -20893,7 +20893,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1284.png",
@@ -21079,7 +21079,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1291.png",
@@ -21262,7 +21262,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1292.png",
@@ -21445,7 +21445,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1295.png",
@@ -21631,7 +21631,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "130.png",
@@ -21817,7 +21817,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1300.png",
@@ -22000,7 +22000,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1301.png",
@@ -22186,7 +22186,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1302.png",
@@ -22372,7 +22372,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1305.png",
@@ -22558,7 +22558,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1308.png",
@@ -22744,7 +22744,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1309.png",
@@ -22930,7 +22930,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1313.png",
@@ -23116,7 +23116,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1316.png",
@@ -23302,7 +23302,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1317.png",
@@ -23488,7 +23488,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1318.png",
@@ -23674,7 +23674,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1319.png",
@@ -23860,7 +23860,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1320.png",
@@ -24046,7 +24046,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1324.png",
@@ -24232,7 +24232,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1327.png",
@@ -24415,7 +24415,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1332.png",
@@ -24601,7 +24601,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1333.png",
@@ -24784,7 +24784,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1335.png",
@@ -24967,7 +24967,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1336.png",
@@ -25153,7 +25153,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1338.png",
@@ -25339,7 +25339,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1341.png",
@@ -25522,7 +25522,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1342.png",
@@ -25708,7 +25708,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1344.png",
@@ -25891,7 +25891,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1347.png",
@@ -26077,7 +26077,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1348.png",
@@ -26263,7 +26263,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1349.png",
@@ -26449,7 +26449,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "135.png",
@@ -26632,7 +26632,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1350.png",
@@ -26818,7 +26818,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1352.png",
@@ -27004,7 +27004,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1354.png",
@@ -27187,7 +27187,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1356.png",
@@ -27373,7 +27373,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "136.png",
@@ -27556,7 +27556,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1360.png",
@@ -27742,7 +27742,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1362.png",
@@ -27928,7 +27928,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1364.png",
@@ -28114,7 +28114,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1367.png",
@@ -28300,7 +28300,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1368.png",
@@ -28486,7 +28486,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1371.png",
@@ -28672,7 +28672,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1374.png",
@@ -28858,7 +28858,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1376.png",
@@ -29044,7 +29044,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1378.png",
@@ -29230,7 +29230,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "138.png",
@@ -29413,7 +29413,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1382.png",
@@ -29599,7 +29599,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1384.png",
@@ -29785,7 +29785,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1386.png",
@@ -29968,7 +29968,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1387.png",
@@ -30154,7 +30154,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1390.png",
@@ -30340,7 +30340,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1391.png",
@@ -30526,7 +30526,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1395.png",
@@ -30709,7 +30709,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "14.png",
@@ -30895,7 +30895,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1405.png",
@@ -31078,7 +31078,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1410.png",
@@ -31261,7 +31261,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1413.png",
@@ -31447,7 +31447,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1415.png",
@@ -31633,7 +31633,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1417.png",
@@ -31819,7 +31819,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1418.png",
@@ -32005,7 +32005,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1419.png",
@@ -32191,7 +32191,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1420.png",
@@ -32377,7 +32377,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1426.png",
@@ -32563,7 +32563,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1427.png",
@@ -32749,7 +32749,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1428.png",
@@ -32932,7 +32932,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1430.png",
@@ -33118,7 +33118,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1431.png",
@@ -33301,7 +33301,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1435.png",
@@ -33487,7 +33487,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1436.png",
@@ -33673,7 +33673,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1437.png",
@@ -33859,7 +33859,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1439.png",
@@ -34045,7 +34045,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1442.png",
@@ -34231,7 +34231,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1445.png",
@@ -34417,7 +34417,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1447.png",
@@ -34603,7 +34603,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1448.png",
@@ -34786,7 +34786,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1449.png",
@@ -34972,7 +34972,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1450.png",
@@ -35158,7 +35158,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "1452.png",
@@ -35341,7 +35341,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "15.png",
@@ -35527,7 +35527,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "150.png",
@@ -35710,7 +35710,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "151.png",
@@ -35893,7 +35893,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "153.png",
@@ -36079,7 +36079,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "154.png",
@@ -36265,7 +36265,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "155.png",
@@ -36451,7 +36451,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "156.png",
@@ -36637,7 +36637,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "157.png",
@@ -36820,7 +36820,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "159.png",
@@ -37006,7 +37006,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "16.png",
@@ -37189,7 +37189,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "161.png",
@@ -37375,7 +37375,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "162.png",
@@ -37558,7 +37558,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "166.png",
@@ -37741,7 +37741,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "173.png",
@@ -37927,7 +37927,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "177.png",
@@ -38113,7 +38113,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "179.png",
@@ -38299,7 +38299,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "18.png",
@@ -38485,7 +38485,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "180.png",
@@ -38671,7 +38671,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "182.png",
@@ -38857,7 +38857,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "190.png",
@@ -39043,7 +39043,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "192.png",
@@ -39229,7 +39229,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "193.png",
@@ -39415,7 +39415,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "197.png",
@@ -39601,7 +39601,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "199.png",
@@ -39787,7 +39787,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "2.png",
@@ -39970,7 +39970,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "20.png",
@@ -40156,7 +40156,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "202.png",
@@ -40342,7 +40342,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "204.png",
@@ -40528,7 +40528,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "206.png",
@@ -40714,7 +40714,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "207.png",
@@ -40900,7 +40900,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "21.png",
@@ -41083,7 +41083,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "224.png",
@@ -41269,7 +41269,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "226.png",
@@ -41455,7 +41455,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "228.png",
@@ -41638,7 +41638,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "229.png",
@@ -41821,7 +41821,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "23.png",
@@ -42007,7 +42007,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "230.png",
@@ -42190,7 +42190,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "236.png",
@@ -42376,7 +42376,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "237.png",
@@ -42562,7 +42562,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "242.png",
@@ -42745,7 +42745,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "244.png",
@@ -42931,7 +42931,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "249.png",
@@ -43114,7 +43114,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "252.png",
@@ -43297,7 +43297,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "254.png",
@@ -43480,7 +43480,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "255.png",
@@ -43663,7 +43663,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "256.png",
@@ -43846,7 +43846,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "26.png",
@@ -44032,7 +44032,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "260.png",
@@ -44215,7 +44215,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "261.png",
@@ -44401,7 +44401,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "262.png",
@@ -44587,7 +44587,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "264.png",
@@ -44770,7 +44770,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "265.png",
@@ -44953,7 +44953,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "266.png",
@@ -45139,7 +45139,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "267.png",
@@ -45325,7 +45325,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "27.png",
@@ -45508,7 +45508,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "274.png",
@@ -45694,7 +45694,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "276.png",
@@ -45880,7 +45880,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "278.png",
@@ -46066,7 +46066,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "28.png",
@@ -46252,7 +46252,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "280.png",
@@ -46438,7 +46438,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "281.png",
@@ -46624,7 +46624,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "282.png",
@@ -46810,7 +46810,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "287.png",
@@ -46993,7 +46993,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "29.png",
@@ -47179,7 +47179,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "290.png",
@@ -47365,7 +47365,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "291.png",
@@ -47548,7 +47548,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "292.png",
@@ -47731,7 +47731,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "293.png",
@@ -47917,7 +47917,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "294.png",
@@ -48103,7 +48103,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "298.png",
@@ -48289,7 +48289,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "299.png",
@@ -48472,7 +48472,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "3.png",
@@ -48655,7 +48655,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "30.png",
@@ -48841,7 +48841,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "300.png",
@@ -49027,7 +49027,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "301.png",
@@ -49213,7 +49213,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "302.png",
@@ -49399,7 +49399,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "303.png",
@@ -49585,7 +49585,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "304.png",
@@ -49768,7 +49768,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "309.png",
@@ -49954,7 +49954,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "31.png",
@@ -50140,7 +50140,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "313.png",
@@ -50326,7 +50326,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "315.png",
@@ -50509,7 +50509,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "316.png",
@@ -50695,7 +50695,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "317.png",
@@ -50881,7 +50881,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "318.png",
@@ -51067,7 +51067,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "319.png",
@@ -51250,7 +51250,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "32.png",
@@ -51433,7 +51433,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "322.png",
@@ -51616,7 +51616,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "323.png",
@@ -51799,7 +51799,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "324.png",
@@ -51982,7 +51982,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "327.png",
@@ -52165,7 +52165,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "328.png",
@@ -52351,7 +52351,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "331.png",
@@ -52537,7 +52537,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "332.png",
@@ -52723,7 +52723,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "333.png",
@@ -52906,7 +52906,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "334.png",
@@ -53092,7 +53092,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "335.png",
@@ -53278,7 +53278,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "337.png",
@@ -53464,7 +53464,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "338.png",
@@ -53650,7 +53650,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "34.png",
@@ -53836,7 +53836,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "340.png",
@@ -54022,7 +54022,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "342.png",
@@ -54205,7 +54205,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "343.png",
@@ -54391,7 +54391,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "345.png",
@@ -54574,7 +54574,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "346.png",
@@ -54760,7 +54760,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "349.png",
@@ -54943,7 +54943,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "350.png",
@@ -55129,7 +55129,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "351.png",
@@ -55315,7 +55315,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "352.png",
@@ -55501,7 +55501,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "372.png",
@@ -55687,7 +55687,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "374.png",
@@ -55873,7 +55873,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "376.png",
@@ -56059,7 +56059,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "378.png",
@@ -56245,7 +56245,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "38.png",
@@ -56431,7 +56431,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "381.png",
@@ -56617,7 +56617,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "382.png",
@@ -56803,7 +56803,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "386.png",
@@ -56989,7 +56989,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "387.png",
@@ -57175,7 +57175,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "389.png",
@@ -57361,7 +57361,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "392.png",
@@ -57547,7 +57547,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "397.png",
@@ -57733,7 +57733,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "398.png",
@@ -57919,7 +57919,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "40.png",
@@ -58105,7 +58105,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "406.png",
@@ -58291,7 +58291,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "41.png",
@@ -58474,7 +58474,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "443.png",
@@ -58660,7 +58660,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "446.png",
@@ -58846,7 +58846,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "45.png",
@@ -59029,7 +59029,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "451.png",
@@ -59215,7 +59215,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "452.png",
@@ -59401,7 +59401,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "453.png",
@@ -59587,7 +59587,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "454.png",
@@ -59773,7 +59773,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "46.png",
@@ -59959,7 +59959,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "464.png",
@@ -60145,7 +60145,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "468.png",
@@ -60331,7 +60331,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "47.png",
@@ -60517,7 +60517,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "470.png",
@@ -60703,7 +60703,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "473.png",
@@ -60889,7 +60889,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "474.png",
@@ -61075,7 +61075,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "477.png",
@@ -61261,7 +61261,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "479.png",
@@ -61447,7 +61447,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "482.png",
@@ -61633,7 +61633,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "483.png",
@@ -61819,7 +61819,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "487.png",
@@ -62005,7 +62005,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "489.png",
@@ -62191,7 +62191,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "49.png",
@@ -62377,7 +62377,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "491.png",
@@ -62563,7 +62563,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "498.png",
@@ -62749,7 +62749,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "499.png",
@@ -62935,7 +62935,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "5.png",
@@ -63118,7 +63118,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "50.png",
@@ -63304,7 +63304,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "500.png",
@@ -63490,7 +63490,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "501.png",
@@ -63676,7 +63676,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "502.png",
@@ -63862,7 +63862,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "503.png",
@@ -64048,7 +64048,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "504.png",
@@ -64234,7 +64234,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "505.png",
@@ -64420,7 +64420,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "506.png",
@@ -64606,7 +64606,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "507.png",
@@ -64792,7 +64792,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "508.png",
@@ -64978,7 +64978,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "509.png",
@@ -65164,7 +65164,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "510.png",
@@ -65350,7 +65350,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "511.png",
@@ -65536,7 +65536,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "512.png",
@@ -65722,7 +65722,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "513.png",
@@ -65908,7 +65908,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "514.png",
@@ -66094,7 +66094,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "515.png",
@@ -66280,7 +66280,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "516.png",
@@ -66466,7 +66466,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "517.png",
@@ -66652,7 +66652,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "518.png",
@@ -66838,7 +66838,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "519.png",
@@ -67024,7 +67024,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "52.png",
@@ -67210,7 +67210,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "520.png",
@@ -67396,7 +67396,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "521.png",
@@ -67582,7 +67582,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "522.png",
@@ -67768,7 +67768,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "523.png",
@@ -67954,7 +67954,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "524.png",
@@ -68140,7 +68140,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "528.png",
@@ -68323,7 +68323,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "531.png",
@@ -68509,7 +68509,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "539.png",
@@ -68695,7 +68695,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "542.png",
@@ -68881,7 +68881,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "551.png",
@@ -69067,7 +69067,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "564.png",
@@ -69253,7 +69253,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "565.png",
@@ -69439,7 +69439,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "568.png",
@@ -69625,7 +69625,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "569.png",
@@ -69811,7 +69811,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "57.png",
@@ -69997,7 +69997,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "573.png",
@@ -70183,7 +70183,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "575.png",
@@ -70369,7 +70369,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "581.png",
@@ -70555,7 +70555,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "582.png",
@@ -70741,7 +70741,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "583.png",
@@ -70927,7 +70927,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "587.png",
@@ -71113,7 +71113,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "593.png",
@@ -71299,7 +71299,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "598.png",
@@ -71485,7 +71485,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "6.png",
@@ -71671,7 +71671,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "600.png",
@@ -71857,7 +71857,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "611.png",
@@ -72043,7 +72043,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "612.png",
@@ -72229,7 +72229,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "621.png",
@@ -72415,7 +72415,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "624.png",
@@ -72601,7 +72601,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "625.png",
@@ -72787,7 +72787,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "627.png",
@@ -72973,7 +72973,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "628.png",
@@ -73159,7 +73159,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "630.png",
@@ -73345,7 +73345,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "631.png",
@@ -73531,7 +73531,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "633.png",
@@ -73717,7 +73717,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "634.png",
@@ -73900,7 +73900,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "636.png",
@@ -74083,7 +74083,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "637.png",
@@ -74269,7 +74269,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "638.png",
@@ -74455,7 +74455,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "639.png",
@@ -74641,7 +74641,7 @@
     720
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "643.png",
@@ -74827,7 +74827,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "646.png",
@@ -75013,7 +75013,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "652.png",
@@ -75199,7 +75199,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "655.png",
@@ -75385,7 +75385,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "658.png",
@@ -75571,7 +75571,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "659.png",
@@ -75757,7 +75757,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "660.png",
@@ -75943,7 +75943,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "667.png",
@@ -76129,7 +76129,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "672.png",
@@ -76315,7 +76315,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "675.png",
@@ -76501,7 +76501,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "684.png",
@@ -76684,7 +76684,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "689.png",
@@ -76867,7 +76867,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "69.png",
@@ -77050,7 +77050,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "690.png",
@@ -77236,7 +77236,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "699.png",
@@ -77422,7 +77422,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "7.png",
@@ -77605,7 +77605,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "700.png",
@@ -77791,7 +77791,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "701.png",
@@ -77977,7 +77977,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "702.png",
@@ -78160,7 +78160,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "704.png",
@@ -78346,7 +78346,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "705.png",
@@ -78529,7 +78529,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "707.png",
@@ -78715,7 +78715,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "71.png",
@@ -78898,7 +78898,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "710.png",
@@ -79084,7 +79084,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "716.png",
@@ -79270,7 +79270,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "718.png",
@@ -79453,7 +79453,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "719.png",
@@ -79636,7 +79636,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "72.png",
@@ -79819,7 +79819,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "722.png",
@@ -80005,7 +80005,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "725.png",
@@ -80191,7 +80191,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "73.png",
@@ -80377,7 +80377,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "731.png",
@@ -80563,7 +80563,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "736.png",
@@ -80749,7 +80749,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "737.png",
@@ -80935,7 +80935,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "74.png",
@@ -81121,7 +81121,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "741.png",
@@ -81307,7 +81307,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "745.png",
@@ -81493,7 +81493,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "747.png",
@@ -81676,7 +81676,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "75.png",
@@ -81862,7 +81862,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "750.png",
@@ -82045,7 +82045,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "752.png",
@@ -82228,7 +82228,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "768.png",
@@ -82411,7 +82411,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "77.png",
@@ -82594,7 +82594,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "771.png",
@@ -82777,7 +82777,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "774.png",
@@ -82960,7 +82960,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "775.png",
@@ -83146,7 +83146,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "776.png",
@@ -83332,7 +83332,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "780.png",
@@ -83518,7 +83518,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "781.png",
@@ -83701,7 +83701,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "782.png",
@@ -83884,7 +83884,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "784.png",
@@ -84067,7 +84067,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "785.png",
@@ -84253,7 +84253,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "786.png",
@@ -84436,7 +84436,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "788.png",
@@ -84622,7 +84622,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "793.png",
@@ -84808,7 +84808,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "796.png",
@@ -84994,7 +84994,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "8.png",
@@ -85177,7 +85177,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "80.png",
@@ -85360,7 +85360,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "800.png",
@@ -85546,7 +85546,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "801.png",
@@ -85732,7 +85732,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "802.png",
@@ -85915,7 +85915,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "804.png",
@@ -86101,7 +86101,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "806.png",
@@ -86287,7 +86287,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "809.png",
@@ -86473,7 +86473,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "81.png",
@@ -86659,7 +86659,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "810.png",
@@ -86845,7 +86845,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "813.png",
@@ -87031,7 +87031,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "814.png",
@@ -87214,7 +87214,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "815.png",
@@ -87397,7 +87397,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "816.png",
@@ -87583,7 +87583,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "82.png",
@@ -87769,7 +87769,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "821.png",
@@ -87955,7 +87955,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "822.png",
@@ -88141,7 +88141,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "823.png",
@@ -88327,7 +88327,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "824.png",
@@ -88510,7 +88510,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "825.png",
@@ -88696,7 +88696,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "827.png",
@@ -88882,7 +88882,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "829.png",
@@ -89068,7 +89068,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "83.png",
@@ -89254,7 +89254,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "832.png",
@@ -89437,7 +89437,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "834.png",
@@ -89620,7 +89620,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "836.png",
@@ -89803,7 +89803,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "837.png",
@@ -89986,7 +89986,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "839.png",
@@ -90169,7 +90169,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "84.png",
@@ -90355,7 +90355,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "840.png",
@@ -90541,7 +90541,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "842.png",
@@ -90727,7 +90727,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "843.png",
@@ -90913,7 +90913,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "844.png",
@@ -91099,7 +91099,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "845.png",
@@ -91285,7 +91285,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "846.png",
@@ -91471,7 +91471,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "848.png",
@@ -91657,7 +91657,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "850.png",
@@ -91843,7 +91843,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "852.png",
@@ -92029,7 +92029,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "853.png",
@@ -92212,7 +92212,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "857.png",
@@ -92398,7 +92398,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "861.png",
@@ -92581,7 +92581,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "867.png",
@@ -92767,7 +92767,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "87.png",
@@ -92953,7 +92953,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "870.png",
@@ -93139,7 +93139,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "874.png",
@@ -93325,7 +93325,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "877.png",
@@ -93511,7 +93511,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "879.png",
@@ -93694,7 +93694,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "88.png",
@@ -93880,7 +93880,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "880.png",
@@ -94063,7 +94063,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "883.png",
@@ -94249,7 +94249,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "886.png",
@@ -94435,7 +94435,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "89.png",
@@ -94621,7 +94621,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "890.png",
@@ -94804,7 +94804,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "893.png",
@@ -94990,7 +94990,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "894.png",
@@ -95173,7 +95173,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "898.png",
@@ -95359,7 +95359,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "90.png",
@@ -95542,7 +95542,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "900.png",
@@ -95728,7 +95728,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "91.png",
@@ -95914,7 +95914,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "912.png",
@@ -96100,7 +96100,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "915.png",
@@ -96286,7 +96286,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "916.png",
@@ -96469,7 +96469,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "917.png",
@@ -96652,7 +96652,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "918.png",
@@ -96838,7 +96838,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "919.png",
@@ -97021,7 +97021,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "92.png",
@@ -97207,7 +97207,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "920.png",
@@ -97393,7 +97393,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "922.png",
@@ -97579,7 +97579,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "923.png",
@@ -97762,7 +97762,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "925.png",
@@ -97945,7 +97945,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "927.png",
@@ -98131,7 +98131,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "929.png",
@@ -98317,7 +98317,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "935.png",
@@ -98500,7 +98500,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "937.png",
@@ -98683,7 +98683,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "938.png",
@@ -98869,7 +98869,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "94.png",
@@ -99055,7 +99055,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "95.png",
@@ -99241,7 +99241,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "950.png",
@@ -99424,7 +99424,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "951.png",
@@ -99607,7 +99607,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "954.png",
@@ -99790,7 +99790,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "957.png",
@@ -99976,7 +99976,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "958.png",
@@ -100159,7 +100159,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "96.png",
@@ -100345,7 +100345,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "962.png",
@@ -100531,7 +100531,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "963.png",
@@ -100717,7 +100717,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "964.png",
@@ -100903,7 +100903,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "965.png",
@@ -101089,7 +101089,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "966.png",
@@ -101275,7 +101275,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "97.png",
@@ -101458,7 +101458,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "970.png",
@@ -101641,7 +101641,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "971.png",
@@ -101824,7 +101824,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "973.png",
@@ -102010,7 +102010,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "975.png",
@@ -102196,7 +102196,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "976.png",
@@ -102382,7 +102382,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "978.png",
@@ -102568,7 +102568,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "979.png",
@@ -102751,7 +102751,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "98.png",
@@ -102937,7 +102937,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "980.png",
@@ -103123,7 +103123,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "985.png",
@@ -103309,7 +103309,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "988.png",
@@ -103495,7 +103495,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "991.png",
@@ -103681,7 +103681,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "992.png",
@@ -103867,7 +103867,7 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "996.png",
@@ -104050,7 +104050,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "998.png",
@@ -104233,7 +104233,7 @@
    "frame": "bwf_13.4x6.1_line_axis",
    "native_wh": null,
    "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
   },
   {
    "image_id": "999.png",
@@ -104419,9 +104419,2022 @@
     1080
    ],
    "gt_source": "OFFICIAL_BENCHMARK_GT",
-   "geometry_source": "official_spec"
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN001_B1_4140.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN004_B2_7700.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN006_B3_6980.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN007_B4_4890.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN011_B6_3945.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN012_B1_2731.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN013_B2_5348.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN014_B3_2218.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN015_B3_4812.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN016_B5_6086.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
+  },
+  {
+   "image_id": "BN017_B6_1171.png",
+   "sport": "badminton",
+   "split": "test",
+   "court_visible": 0,
+   "H_sup": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "lattice_uv": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "vis": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight": 1.0,
+   "tier": "negative",
+   "frame": "bwf_13.4x6.1_line_axis",
+   "native_wh": null,
+   "gt_source": "OFFICIAL_BENCHMARK_GT(non-registrable)",
+   "geometry_source": "frozen_court_spec"
   }
  ],
- "n": 564,
+ "n": 575,
  "lattice_K": 30
 }

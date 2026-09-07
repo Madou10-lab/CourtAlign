@@ -23,6 +23,10 @@ Do not edit `data/splits/*.csv` or `data/benchmark_gt/official/`. They are the
 frozen split and geometric ground-truth resources used for the reported
 experiments.
 
+Non-registrable test frames have zero-valued segmentation masks and no court-line
+annotation. Test line masks are therefore required only for records marked valid
+in the official geometric ground truth.
+
 The split manifests contain repository-relative image and mask paths, file
 hashes, dimensions, and label schemas. This makes the protocol portable while
 preserving the exact sample membership and ordering used in the experiments.

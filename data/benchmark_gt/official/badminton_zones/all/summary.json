@@ -3,17 +3,18 @@
   "convention": "zero-width line-axis model; edge-aware unmerged click fitting",
   "dataset": "badminton_zones",
   "split": "all",
-  "n_images": 564,
+  "n_images": 575,
   "n_valid": 403,
-  "n_skipped": 161,
+  "n_skipped": 172,
   "n_failed": 0,
   "tiers": {
     "gold": 385,
     "silver": 18
   },
   "residual_px720_inlier_rmse": {
-    "mean": 1.1401501627180533,
+    "mean": 1.1401501627180513,
     "median": 1.103487718494791,
     "max": 1.5479402670196039
-  }
+  },
+  "non_registrable_definition": "A skipped record has no usable court geometry and therefore has no homography annotation."
 }
