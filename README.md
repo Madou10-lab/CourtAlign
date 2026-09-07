@@ -133,9 +133,11 @@ trainable count is far smaller than the parameters it evaluates at inference.
 
 ## Qualitative comparison
 
-The tennis example compares projected court lines on the same test frame. The
-badminton example shows behavior on a non-registrable frame. CourtAlign
-projections are yellow and baseline projections are blue.
+The tennis example compares CourtAlign-2S, CourtAlign-E2E, and PnLCalib on the
+same test frame. The cropped view highlights a local PnLCalib misalignment. The
+badminton example compares CourtAlign-2S, CourtAlign-E2E, and KpSFR on a
+non-registrable frame. Projected court lines are blue and CourtAlign rejection
+messages are shown in neon green.
 
 [![Tennis qualitative comparison](docs/figures/qualitative_tennis.png)](docs/figures/qualitative_tennis.pdf)
 
